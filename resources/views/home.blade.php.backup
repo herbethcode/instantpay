@@ -1,0 +1,561 @@
+@extends('layouts.app')
+
+@section('title', 'InstantPay - Empowering Your Financial Success')
+
+@section('content')
+
+    <!-- Hero Section Start -->
+    <div class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Hero Content Start -->
+                    <div class="hero-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title dark-section">
+                            <h3 class="wow fadeInUp">welcome to InstantPay</h3>
+                            <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Empowering</span> your financial success journey</h1>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Guiding you with expert insights and strategic solutions to achieve financial growth, stability, and long-term success.</p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- Hero Content Body Start -->
+                        <div class="hero-content-body wow fadeInUp" data-wow-delay="0.4s">
+                            <!-- Hero Button Start -->
+                            <div class="hero-btn">
+                                <a href="{{ url('/contact') }}" class="btn-default">get started</a>
+                            </div>
+                            <!-- Hero Button End -->
+
+                            <!-- Hero Introduction Video Start -->
+                            <div class="hero-introduction-video">
+                                <div class="video-play-button">
+                                    <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
+                                        <img src="{{ asset('images/icon-play.svg') }}" alt="">
+                                    </a>
+                                    <p>introduction</p>
+                                </div>
+                            </div>
+                            <!-- Hero Introduction Video End -->
+                        </div>
+                        <!-- Hero Content Body End -->
+
+                        <!-- Hero Content Footer Start -->
+                        <div class="hero-content-footer">
+                            <h2 class="wow fadeInUp" data-wow-delay="0.6s">we're working with :</h2>
+                            <!-- Hero Client Slider Start -->
+                            <div class="hero-client-slider">
+                                <div class="swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="client-logo">
+                                                <img src="{{ asset('images/client-logo-1.svg') }}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-logo">
+                                                <img src="{{ asset('images/client-logo-2.svg') }}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-logo">
+                                                <img src="{{ asset('images/client-logo-3.svg') }}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-logo">
+                                                <img src="{{ asset('images/client-logo-1.svg') }}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-logo">
+                                                <img src="{{ asset('images/client-logo-2.svg') }}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="client-logo">
+                                                <img src="{{ asset('images/client-logo-3.svg') }}" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Hero Client Slider End -->
+                        </div>
+                        <!-- Hero Content Footer End -->
+                    </div>
+                    <!-- Hero Content End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Hero Image Start -->
+                    <div class="hero-image">
+                        <div class="hero-img">
+                            <figure>
+                                <img src="{{ asset('images/hero-img.png') }}" alt="">
+                            </figure>
+                        </div>
+                        <!-- Company Experience Box Start -->
+                        <div class="company-experience">
+                            <h3><span class="counter">25</span>+</h3>
+                            <p>Years of experience in finance</p>
+                        </div>
+                        <!-- Company Experience Box End -->
+                    </div>
+                    <!-- Hero Image End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Start -->
+    <div class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- About Us Images Start -->
+                    <div class="about-us-images">
+                        <div class="about-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="{{ asset('images/about-img-1.jpg') }}" alt="">
+                            </figure>
+                        </div>
+                        <div class="about-img-2">
+                            <figure class="image-anime reveal">
+                                <img src="{{ asset('images/about-img-2.jpg') }}" alt="">
+                            </figure>
+                        </div>
+                        <div class="contact-circle">
+                            <img src="{{ asset('images/contact-us-img.svg') }}" alt="">
+                        </div>
+                    </div>
+                    <!-- About Us Images End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- About Us Content Start -->
+                    <div class="about-us-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">about us</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Trusted guidance for <span>financial growth</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">With years of expertise in finance and consulting, we provide tailored strategies to help you achieve sustainable growth. Our commitment is to guide you with integrity, insight, and a personalized approach.</p>
+                        </div>
+
+                        <div class="about-content-body">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="about-content-info">
+                                        <div class="about-goal-box wow fadeInUp" data-wow-delay="0.4s">
+                                            <div class="icon-box">
+                                                <img src="{{ asset('images/icon-financial-strategies.svg') }}" alt="">
+                                            </div>
+                                            <div class="about-goal-box-content">
+                                                <h3>financial strategies</h3>
+                                                <p>Tailored plans to meet your unique financial needs and goals.</p>
+                                            </div>
+                                        </div>
+                                        <div class="about-contact-box wow fadeInUp" data-wow-delay="0.6s">
+                                            <div class="icon-box">
+                                                <img src="{{ asset('images/icon-phone.svg') }}" alt="">
+                                            </div>
+                                            <div class="about-contact-content">
+                                                <p><a href="tel:658456975">+(658) 456-975</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="about-author-box wow fadeInUp" data-wow-delay="0.4s">
+                                        <div class="about-info-box">
+                                            <figure class="image-anime reveal">
+                                                <img src="{{ asset('images/author-1.jpg') }}" alt="">
+                                            </figure>
+                                            <div class="about-author-content">
+                                                <h3>Sarah T.</h3>
+                                                <p>Co. founder</p>
+                                            </div>
+                                        </div>
+                                        <div class="about-info-list">
+                                            <ul>
+                                                <li>risk management</li>
+                                                <li>communication</li>
+                                                <li>24/7 support</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- About Us Content End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us Section End -->
+
+    <!-- Our Services Section Start -->
+    <div class="our-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="our-service-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">services</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Expert finance & consult services <span>for success</span></h2>
+                        </div>
+                        <div class="service-content-btn wow fadeInUp" data-wow-delay="0.25s">
+                            <a href="{{ url('/services') }}" class="btn-default">all services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="our-service-list">
+                        <div class="service-item">
+                            <div class="service-no"><h2>01</h2></div>
+                            <div class="service-content-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-service-1.svg') }}" alt=""></div>
+                                <div class="service-item-content">
+                                    <h3>financial planning</h3>
+                                    <p>Financial planning involves creating strategies to manage your income, expenses, and long-term financial goals.</p>
+                                    <a href="{{ url('/services') }}" class="service-btn"><img src="{{ asset('images/arrow-white.svg') }}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-no"><h2>02</h2></div>
+                            <div class="service-content-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-service-2.svg') }}" alt=""></div>
+                                <div class="service-item-content">
+                                    <h3>investment management</h3>
+                                    <p>Financial planning involves creating strategies to manage your income, expenses, and long-term financial goals.</p>
+                                    <a href="{{ url('/services') }}" class="service-btn"><img src="{{ asset('images/arrow-white.svg') }}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-no"><h2>03</h2></div>
+                            <div class="service-content-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-service-3.svg') }}" alt=""></div>
+                                <div class="service-item-content">
+                                    <h3>retirement planning</h3>
+                                    <p>Financial planning involves creating strategies to manage your income, expenses, and long-term financial goals.</p>
+                                    <a href="{{ url('/services') }}" class="service-btn"><img src="{{ asset('images/arrow-white.svg') }}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-no"><h2>04</h2></div>
+                            <div class="service-content-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-service-4.svg') }}" alt=""></div>
+                                <div class="service-item-content">
+                                    <h3>tax optimization</h3>
+                                    <p>Financial planning involves creating strategies to manage your income, expenses, and long-term financial goals.</p>
+                                    <a href="{{ url('/services') }}" class="service-btn"><img src="{{ asset('images/arrow-white.svg') }}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-no"><h2>05</h2></div>
+                            <div class="service-content-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-service-5.svg') }}" alt=""></div>
+                                <div class="service-item-content">
+                                    <h3>risk assessment</h3>
+                                    <p>Financial planning involves creating strategies to manage your income, expenses, and long-term financial goals.</p>
+                                    <a href="{{ url('/services') }}" class="service-btn"><img src="{{ asset('images/arrow-white.svg') }}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-no"><h2>06</h2></div>
+                            <div class="service-content-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-service-6.svg') }}" alt=""></div>
+                                <div class="service-item-content">
+                                    <h3>budgeting & forecasting</h3>
+                                    <p>Financial planning involves creating strategies to manage your income, expenses, and long-term financial goals.</p>
+                                    <a href="{{ url('/services') }}" class="service-btn"><img src="{{ asset('images/arrow-white.svg') }}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-footer wow fadeInUp" data-wow-delay="0.8s">
+                        <p>Let's make something great work together. <a href="{{ url('/contact') }}">Get Free Quote</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Services Section End -->
+
+    <!-- Why Choose Us Section Start -->
+    <div class="why-choose-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="why-choose-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">why choose us</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Why trust us <span>for your finances</span></h2>
+                        </div>
+                        <div class="why-choose-box-list">
+                            <div class="why-choose-box wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="icon-box"><img src="{{ asset('images/icon-why-choose-1.svg') }}" alt=""></div>
+                                <div class="why-choose-box-content">
+                                    <h3>financial strategies</h3>
+                                    <p>Tailored plans to meet your unique financial needs and goals.</p>
+                                </div>
+                            </div>
+                            <div class="why-choose-box wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="icon-box"><img src="{{ asset('images/icon-why-choose-2.svg') }}" alt=""></div>
+                                <div class="why-choose-box-content">
+                                    <h3>tax optimization</h3>
+                                    <p>Tailored plans to meet your unique financial needs and goals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="why-choose-list wow fadeInUp" data-wow-delay="0.6s">
+                            <ul>
+                                <li>strategic financial planning</li>
+                                <li>expert investment advisory</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="why-choose-image">
+                        <div class="why-choose-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="{{ asset('images/why-choose-img-1.jpg') }}" alt="">
+                            </figure>
+                        </div>
+                        <div class="why-choose-img-2">
+                            <figure class="image-anime reveal">
+                                <img src="{{ asset('images/why-choose-img-2.jpg') }}" alt="">
+                            </figure>
+                        </div>
+                        <div class="why-choose-contact-circle">
+                            <img src="{{ asset('images/contact-us-img.svg') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Choose Us Section End -->
+
+    <!-- Our Feature Section Start -->
+    <div class="our-feature">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-title dark-section">
+                        <h3 class="wow fadeInUp">our feature</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Key features of our finance <span>and consulting</span></h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
+                        <a href="{{ url('/contact') }}" class="btn-default">contact now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="our-feature-list">
+                        <div class="our-feature-item wow fadeInUp">
+                            <div class="icon-box"><img src="{{ asset('images/icon-our-feature-1.svg') }}" alt=""></div>
+                            <div class="feature-item-content">
+                                <h3>financial solutions</h3>
+                                <p>Our Financial Solutions offer tailored strategies to meet your unique goals, from planning and risk management.</p>
+                            </div>
+                        </div>
+                        <div class="our-feature-item wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="icon-box"><img src="{{ asset('images/icon-our-feature-2.svg') }}" alt=""></div>
+                            <div class="feature-item-content">
+                                <h3>wealth management</h3>
+                                <p>Our Financial Solutions offer tailored strategies to meet your unique goals, from planning and risk management.</p>
+                            </div>
+                        </div>
+                        <div class="our-feature-item wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="icon-box"><img src="{{ asset('images/icon-our-feature-3.svg') }}" alt=""></div>
+                            <div class="feature-item-content">
+                                <h3>in-depth market analysis</h3>
+                                <p>Our Financial Solutions offer tailored strategies to meet your unique goals, from planning and risk management.</p>
+                            </div>
+                        </div>
+                        <div class="our-feature-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon-box"><img src="{{ asset('images/icon-our-feature-4.svg') }}" alt=""></div>
+                            <div class="feature-item-content">
+                                <h3>risk management</h3>
+                                <p>Our Financial Solutions offer tailored strategies to meet your unique goals, from planning and risk management.</p>
+                            </div>
+                        </div>
+                        <div class="our-feature-item wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="icon-box"><img src="{{ asset('images/icon-our-feature-5.svg') }}" alt=""></div>
+                            <div class="feature-item-content">
+                                <h3>tax efficiency strategies</h3>
+                                <p>Our Financial Solutions offer tailored strategies to meet your unique goals, from planning and risk management.</p>
+                            </div>
+                        </div>
+                        <div class="our-feature-item wow fadeInUp" data-wow-delay="1s">
+                            <div class="icon-box"><img src="{{ asset('images/icon-our-feature-6.svg') }}" alt=""></div>
+                            <div class="feature-item-content">
+                                <h3>strategic business advisory</h3>
+                                <p>Our Financial Solutions offer tailored strategies to meet your unique goals, from planning and risk management.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="our-feature-footer wow fadeInUp" data-wow-delay="1.2s">
+                        <p><span>Free</span> Let's make something great work together. <a href="{{ url('/contact') }}">Get Free Quote</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Feature Section End -->
+
+    <!-- Fact Counter Section Start -->
+    <div class="fact-counter">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="fact-counter-image">
+                        <div class="fact-counter-img">
+                            <figure class="image-anime reveal">
+                                <img src="{{ asset('images/fact-counter-img.jpg') }}" alt="">
+                            </figure>
+                        </div>
+                        <div class="fact-counter-skillbar">
+                            <img src="{{ asset('images/fact-counter-skillbar-img.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="fact-counter-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">some facts</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Key facts our <span>expertise</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Our expertise is built on years of industry experience, proven financial strategies and a commitment to client success.</p>
+                        </div>
+                        <div class="fact-counter-box-list">
+                            <div class="fact-counter-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-fact-counter-1.svg') }}" alt=""></div>
+                                <div class="fact-counter-box-content">
+                                    <h2><span class="counter">25</span>+</h2>
+                                    <p>Years of experience</p>
+                                </div>
+                            </div>
+                            <div class="fact-counter-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-fact-counter-2.svg') }}" alt=""></div>
+                                <div class="fact-counter-box-content">
+                                    <h2><span class="counter">80</span>%+</h2>
+                                    <p>Client success rate</p>
+                                </div>
+                            </div>
+                            <div class="fact-counter-box">
+                                <div class="icon-box"><img src="{{ asset('images/icon-fact-counter-3.svg') }}" alt=""></div>
+                                <div class="fact-counter-box-content">
+                                    <h2><span class="counter">20</span>+</h2>
+                                    <p>Global research</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fact-counter-list wow fadeInUp" data-wow-delay="0.4s">
+                            <ul>
+                                <li>Strategic financial planning</li>
+                                <li>Expert investment advisory</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact Counter Section End -->
+
+    <!-- What We Do Section Start -->
+    <div class="what-we-do">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="what-we-do-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">what we do</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Driving financial growth <span>and success</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">We provide expert financial and consulting solutions designed to foster growth, stability, and long-term success.</p>
+                        </div>
+                        <div class="what-we-do-list wow fadeInUp" data-wow-delay="0.4s">
+                            <ul>
+                                <li>strategic financial planning</li>
+                                <li>expert investment advisory</li>
+                                <li>risk assessment & mitigation</li>
+                                <li>retirement & future planning</li>
+                            </ul>
+                        </div>
+                        <div class="what-we-do-btn wow fadeInUp" data-wow-delay="0.6s">
+                            <a href="{{ url('/contact') }}" class="btn-default">contact now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="what-we-do-images">
+                        <div class="what-do-we-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="{{ asset('images/what-we-do-img-1.jpg') }}" alt="">
+                            </figure>
+                        </div>
+                        <div class="what-do-we-img-2">
+                            <figure class="image-anime reveal">
+                                <img src="{{ asset('images/what-we-do-img-2.jpg') }}" alt="">
+                            </figure>
+                        </div>
+                        <div class="experience-counter-box">
+                            <div class="experience-counter-no">
+                                <h2><span class="counter">25</span>+</h2>
+                            </div>
+                            <div class="experience-counter-content">
+                                <p>Years of experience in finance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- What We Do Section End -->
+
+    <!-- CTA Section Start -->
+    <div class="cta-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="section-title dark-section">
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Ready to take control of your <span>financial future?</span></h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Contact us today to schedule a consultation and discover how we can help you achieve your financial goals.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
+                        <a href="{{ url('/contact') }}" class="btn-default">get started today</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA Section End -->
+
+@endsection

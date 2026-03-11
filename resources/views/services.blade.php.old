@@ -1,0 +1,376 @@
+@extends('layouts.app')
+
+@section('title', 'Our Services - InstantPayment Solutions')
+
+@section('content')
+<!-- Page Header Start -->
+<div class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ asset('Highlights/INSP(3of113).jpg') }}'); background-size: cover; background-position: center;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="page-header-box">
+                    <h1 class="text-anime-style-2 text-white" data-cursor="-opaque">Our Services</h1>
+                    <nav class="wow fadeInUp">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{ url('/') }}">home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">services</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<!-- Services Overview Start -->
+<div class="services-overview" style="padding: 100px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Comprehensive Solutions</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Payment Infrastructure for Every Need</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">From Point of Sale terminals to cross-border payments, we provide complete digital payment infrastructure</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services Overview End -->
+
+<!-- Card POS Solutions Section Start -->
+<div id="pos" class="service-detail" style="padding: 80px 0; background: #f8f9fa;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="service-image wow fadeInUp">
+                    <img src="{{ asset('Highlights/INSP(70of113).jpg') }}" alt="Card POS Solutions" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="service-content wow fadeInUp" data-wow-delay="0.2s">
+                    <h3 style="color: #ea2429;">Card POS Solutions</h3>
+                    <h2 class="mb-4">Accept Payments Anywhere, Anytime</h2>
+
+                    <p>Our Card POS solutions help businesses accept payments quickly and securely. Supporting contactless, chip, and swipe transactions, the terminals make it easy for customers to pay and for merchants to track sales.</p>
+
+                    <div class="features-list mt-4">
+                        <div class="feature-item d-flex mb-3">
+                            <div class="icon-box me-3" style="background: #ea2429; color: white; width: 50px; height: 50px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-credit-card fa-lg"></i>
+                            </div>
+                            <div>
+                                <h5>Multiple Payment Methods</h5>
+                                <p class="mb-0">Contactless, chip, and swipe transactions all supported</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item d-flex mb-3">
+                            <div class="icon-box me-3" style="background: #ea2429; color: white; width: 50px; height: 50px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-chart-bar fa-lg"></i>
+                            </div>
+                            <div>
+                                <h5>Track Sales</h5>
+                                <p class="mb-0">Real-time sales tracking and reporting for better business insights</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item d-flex mb-3">
+                            <div class="icon-box me-3" style="background: #ea2429; color: white; width: 50px; height: 50px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-tags fa-lg"></i>
+                            </div>
+                            <div>
+                                <h5>Competitive Pricing</h5>
+                                <p class="mb-0">Simple setup with affordable rates for businesses of all sizes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Card POS Solutions Section End -->
+
+<!-- Payment APIs Section Start -->
+<div id="api" class="service-detail" style="padding: 80px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="service-image wow fadeInUp">
+                    <img src="{{ asset('Highlights/INSP(80of113).jpg') }}" alt="Payment APIs" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-lg-6 order-lg-1">
+                <div class="service-content wow fadeInUp" data-wow-delay="0.2s">
+                    <h3 style="color: #ea2429;">Payment APIs & Mobile Money Integrations</h3>
+                    <h2 class="mb-4">Seamless Integration for Your Business</h2>
+
+                    <p>As a leading fintech provider, we offer seamless payment APIs and mobile money integrations that empower businesses to accept and process payments efficiently. Our solutions connect directly to mobile wallets, bank accounts, and digital payment platforms, enabling real-time transactions and smooth financial operations.</p>
+
+                    <div class="features-list mt-4">
+                        <div class="feature-item d-flex mb-3">
+                            <div class="icon-box me-3" style="background: #ea2429; color: white; width: 50px; height: 50px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-mobile-alt fa-lg"></i>
+                            </div>
+                            <div>
+                                <h5>MNO Payment API</h5>
+                                <p class="mb-0">Connect to all major mobile network operators for instant payments</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item d-flex mb-3">
+                            <div class="icon-box me-3" style="background: #ea2429; color: white; width: 50px; height: 50px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-shield-alt fa-lg"></i>
+                            </div>
+                            <div>
+                                <h5>Reliable & Secure</h5>
+                                <p class="mb-0">Bank-grade security for all transactions with 99.9% uptime</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item d-flex mb-3">
+                            <div class="icon-box me-3" style="background: #ea2429; color: white; width: 50px; height: 50px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-expand-arrows-alt fa-lg"></i>
+                            </div>
+                            <div>
+                                <h5>Scalable Solutions</h5>
+                                <p class="mb-0">Grow your business confidently with our scalable infrastructure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Payment APIs Section End -->
+
+<!-- E-Commerce Checkout Section Start -->
+<div id="ecommerce" class="service-detail" style="padding: 80px 0; background: #f8f9fa;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="service-image wow fadeInUp">
+                    <img src="{{ asset('Highlights/INSP(60of113).jpg') }}" alt="E-Commerce Checkout" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="service-content wow fadeInUp" data-wow-delay="0.2s">
+                    <h3 style="color: #ea2429;">E-Commerce Checkout Solutions</h3>
+                    <h2 class="mb-4">Streamline Your Online Sales</h2>
+
+                    <p>Whether you're building an app, an e-commerce platform, or a corporate payment system, our APIs provide the tools to streamline payments, enhance customer experience, and grow your business.</p>
+
+                    <ul class="feature-list" style="list-style: none; padding: 0;">
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Quick integration with any platform</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Multiple payment options for customers</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Secure checkout process</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Real-time transaction updates</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Comprehensive analytics dashboard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- E-Commerce Checkout Section End -->
+
+<!-- GePG  Section Start -->
+<div id="gepg" class="service-detail" style="padding: 80px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="service-image wow fadeInUp">
+                    <img src="{{ asset('Highlights/INSP(50of113).jpg') }}" alt="GePG Integration" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-lg-6 order-lg-1">
+                <div class="service-content wow fadeInUp" data-wow-delay="0.2s">
+                    <h3 style="color: #ea2429;">GePG Integration</h3>
+                    <h2 class="mb-4">Government Payment Gateway Solutions</h2>
+
+                    <p>We provide seamless integration with the Government Electronic Payment Gateway (GePG), enabling efficient collection of government revenues and fees. Our solution ensures compliance with government standards while providing a smooth user experience.</p>
+
+                    <div class="features-list mt-4">
+                        <div class="feature-item mb-3">
+                            <h5><i class="fas fa-university" style="color: #ea2429;"></i> Government Compliance</h5>
+                            <p>Fully compliant with Tanzania Revenue Authority and government regulations</p>
+                        </div>
+
+                        <div class="feature-item mb-3">
+                            <h5><i class="fas fa-sync" style="color: #ea2429;"></i> Real-time Reconciliation</h5>
+                            <p>Automatic reconciliation and reporting for all transactions</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5><i class="fas fa-plug" style="color: #ea2429;"></i> Easy Integration</h5>
+                            <p>Simple API integration with comprehensive documentation and support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- GePG Section End -->
+
+<!-- Cross-Border Payments Section Start -->
+<div id="crossborder" class="service-detail" style="padding: 80px 0; background: #f8f9fa;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="service-image wow fadeInUp">
+                    <img src="{{ asset('Highlights/INSP(90of113).jpg') }}" alt="Cross-Border Payments" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="service-content wow fadeInUp" data-wow-delay="0.2s">
+                    <h3 style="color: #ea2429;">IMT & Cross-Border Transfers</h3>
+                    <h2 class="mb-4">Seamless International Payments</h2>
+
+                    <p>We develop and scale secure, efficient, and cost-effective cross-border payment platforms that support both retail and business transactions. Strategically important for strengthening regional financial integration, driving remittance flows, and enabling seamless trade across East Africa and beyond.</p>
+
+                    <div class="features-list mt-4">
+                        <div class="feature-item mb-3">
+                            <h5><i class="fas fa-globe-africa" style="color: #ea2429;"></i> Regional Coverage</h5>
+                            <p>Connect with financial institutions across East Africa and beyond</p>
+                        </div>
+
+                        <div class="feature-item mb-3">
+                            <h5><i class="fas fa-dollar-sign" style="color: #ea2429;"></i> Competitive Rates</h5>
+                            <p>Cost-effective cross-border transfers with transparent pricing</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5><i class="fas fa-clock" style="color: #ea2429;"></i> Fast Settlements</h5>
+                            <p>Quick processing times for both retail and business transactions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Cross-Border Payments Section End -->
+
+<!-- Featured Solutions Section Start -->
+<div class="featured-solutions" style="padding: 100px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Innovative Solutions</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Specialized Payment Technologies</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-6 mb-4">
+                <div class="solution-card wow fadeInUp" style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 30px rgba(0,0,0,0.1);">
+                    <div class="solution-image mb-4">
+                        <img src="{{ asset('Highlights/INSP(30of113).jpg') }}" alt="VegaPay" class="img-fluid rounded">
+                    </div>
+                    <h3>VegaPay Wearable Solutions</h3>
+                    <p>We partnered with VegaPay to develop secure, innovative wearable payment solutions. Our rings, bracelets, and key fobs connect directly to bank cards via tokenization technology, enabling contactless payments worldwide.</p>
+                    <ul class="feature-list" style="list-style: none; padding: 0;">
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> No charging needed</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Fully secure tokenization</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Worldwide contactless payments</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Ideal for the modern digital economy</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+                <div class="solution-card wow fadeInUp" data-wow-delay="0.2s" style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 30px rgba(0,0,0,0.1);">
+                    <div class="solution-image mb-4">
+                        <img src="{{ asset('Highlights/INSP(40of113).jpg') }}" alt="SGR Tanzania" class="img-fluid rounded">
+                    </div>
+                    <h3>SGR Tanzania - Tokenized Travel Payments</h3>
+                    <p>Technical partner for SGR Tanzania, delivering a seamless payment experience with our tokenized card solution. Travelers can tap their card to pay effortlessly while earning points on every journey.</p>
+                    <ul class="feature-list" style="list-style: none; padding: 0;">
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Fast, secure transactions</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Instant points accumulation</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Fully integrated systems</li>
+                        <li class="mb-2"><i class="fas fa-check-circle" style="color: #ea2429;"></i> Making commuting convenient and rewarding</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured Solutions Section End -->
+
+<!-- Future Plans Section Start -->
+<div class="future-plans" style="padding: 100px 0; background: linear-gradient(135deg, rgba(234, 36, 41, 0.95), rgba(139, 0, 0, 0.95)), url('{{ asset('Highlights/INSP(100of113).jpg') }}'); background-size: cover; background-position: center; color: white;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp text-white">Coming Soon</h3>
+                    <h2 class="text-anime-style-2 text-white" data-cursor="-opaque">Future Innovations</h2>
+                    <p class="wow fadeInUp text-white" data-wow-delay="0.2s">We're constantly innovating to bring you the latest in payment technology</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="future-item wow fadeInUp" style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 10px; backdrop-filter: blur(10px);">
+                    <div class="icon-box mb-3">
+                        <i class="fas fa-university fa-3x"></i>
+                    </div>
+                    <h4>Unified Digital Government Platform</h4>
+                    <p>A centralized digital platform for government services, enabling citizens and businesses to access licenses, permits, payments, and registrations seamlessly online.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="future-item wow fadeInUp" data-wow-delay="0.2s" style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 10px; backdrop-filter: blur(10px);">
+                    <div class="icon-box mb-3">
+                        <i class="fas fa-piggy-bank fa-3x"></i>
+                    </div>
+                    <h4>Neo Bank</h4>
+                    <p>Digital Neo-Bank targeting underserved populations in Tanzania, Zanzibar, and expanding across East Africa, enhancing financial inclusion for microfinance institutions and cooperatives.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="future-item wow fadeInUp" data-wow-delay="0.4s" style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 10px; backdrop-filter: blur(10px);">
+                    <div class="icon-box mb-3">
+                        <i class="fas fa-exchange-alt fa-3x"></i>
+                    </div>
+                    <h4>Enhanced Cross-Border Solutions</h4>
+                    <p>Expanding our cross-border platform to strengthen regional financial integration, driving remittance flows and enabling seamless trade across East, Central, and Western Africa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Future Plans Section End -->
+
+<!-- CTA Section Start -->
+<div class="cta-section" style="padding: 100px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h2 class="mb-3">Ready to Get Started?</h2>
+                <p class="mb-0 lead">Choose the payment solution that fits your business needs and start accepting payments today</p>
+            </div>
+            <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+                <a href="{{ url('/contact') }}" class="btn-default">Contact Our Team</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- CTA Section End -->
+
+@endsection
