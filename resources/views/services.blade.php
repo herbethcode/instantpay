@@ -736,7 +736,7 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="solution-card wow fadeInUp" data-wow-delay="0.4s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.1); height: 100%; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="solution-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('homepage/INSP(27of113).jpg') }}" alt="Zanzibar" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('homepage/INSP(27of113) (1).jpg') }}" alt="Zanzibar" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="solution-content p-4">
                         <h4 style="color: #ea2429;">Expanding to Zanzibar</h4>

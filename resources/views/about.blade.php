@@ -68,7 +68,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="values-image wow fadeInUp">
-                    <img src="{{ asset('homepage/INSP(27of113).jpg') }}" alt="Our Values" class="img-fluid rounded shadow">
+                    <img src="{{ asset('homepage/INSP(27of113) (1).jpg') }}" alt="Our Values" class="img-fluid rounded shadow">
                 </div>
             </div>
 
@@ -185,43 +185,43 @@
 </div>
 <!-- Our Punchline Section End -->
 
-<!-- Team/Gallery Section Start -->
-<div class="team-gallery" style="padding: 100px 0; background: #f8f9fa;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Our Team</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">The People Behind Innovation</h2>
-                </div>
-            </div>
-        </div>
+{{--<!-- Team/Gallery Section Start -->--}}
+{{--<div class="team-gallery" style="padding: 100px 0; background: #f8f9fa;">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-12">--}}
+{{--                <div class="section-title text-center">--}}
+{{--                    <h3 class="wow fadeInUp">Our Team</h3>--}}
+{{--                    <h2 class="text-anime-style-2" data-cursor="-opaque">The People Behind Innovation</h2>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-6 mb-4">
-                <div class="team-image wow fadeInUp" data-wow-delay="0.1s">
-                    <img src="{{ asset('homepage/INSP(6of113).jpg') }}" alt="Team" class="img-fluid rounded shadow">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-6 mb-4">
-                <div class="team-image wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="{{ asset('homepage/INSP(25of113).jpg') }}" alt="Team" class="img-fluid rounded shadow">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-6 mb-4">
-                <div class="team-image wow fadeInUp" data-wow-delay="0.3s">
-                    <img src="{{ asset('homepage/INSP(27of113).jpg') }}" alt="Team" class="img-fluid rounded shadow">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-6 mb-4">
-                <div class="team-image wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="{{ asset('homepage/HGA_5249 (1).jpg') }}" alt="Team" class="img-fluid rounded shadow">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Team/Gallery Section End -->
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-3 col-md-4 col-6 mb-4">--}}
+{{--                <div class="team-image wow fadeInUp" data-wow-delay="0.1s">--}}
+{{--                    <img src="{{ asset('homepage/INSP(6of113).jpg') }}" alt="Team" class="img-fluid rounded shadow">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-3 col-md-4 col-6 mb-4">--}}
+{{--                <div class="team-image wow fadeInUp" data-wow-delay="0.2s">--}}
+{{--                    <img src="{{ asset('homepage/INSP(25of113).jpg') }}" alt="Team" class="img-fluid rounded shadow">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-3 col-md-4 col-6 mb-4">--}}
+{{--                <div class="team-image wow fadeInUp" data-wow-delay="0.3s">--}}
+{{--                    <img src="{{ asset('homepage/INSP(27of113) (1).jpg') }}" alt="Team" class="img-fluid rounded shadow">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-3 col-md-4 col-6 mb-4">--}}
+{{--                <div class="team-image wow fadeInUp" data-wow-delay="0.4s">--}}
+{{--                    <img src="{{ asset('homepage/HGA_5249 (1).jpg') }}" alt="Team" class="img-fluid rounded shadow">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
+{{--<!-- Team/Gallery Section End -->--}}
 
 <!-- CTA Section Start -->
 <div class="cta-section" style="padding: 80px 0;">

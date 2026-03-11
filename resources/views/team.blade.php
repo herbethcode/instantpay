@@ -78,7 +78,7 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="team-card wow fadeInUp" data-wow-delay="0.2s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="team-image" style="height: 350px; overflow: hidden; position: relative;">
-                        <img src="{{ asset('homepage/INSP(27of113).jpg') }}" alt="CTO" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('homepage/INSP(27of113) (1).jpg') }}" alt="CTO" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                         <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 30px 20px 20px;">
                             <h4 class="text-white mb-1">Chief Technology Officer</h4>
                             <p class="text-white mb-0" style="font-size: 0.9rem;">Technology</p>
