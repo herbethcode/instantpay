@@ -40,7 +40,108 @@
             --accent-color: #f97316 !important;
             --primary-color: #1e293b !important;
         }
-        a:hover { color: #f97316; }
+        a:hover { color: #ea2429; }
+
+        /* ===== Clean white professional app bar ===== */
+        header.main-header{
+            background: #ffffff !important;
+            border-bottom: 1px solid #eef0f3 !important;
+        }
+        header.main-header .header-sticky{
+            transition: box-shadow .3s ease, background .3s ease;
+        }
+        header.main-header .header-sticky.active{
+            background: #ffffff !important;
+            border-bottom: 1px solid #eef0f3 !important;
+            box-shadow: 0 4px 24px rgba(15, 23, 42, 0.08);
+        }
+        .navbar{ padding: 16px 0; }
+
+        /* Nav links: dark, brand-red on hover/active */
+        .main-menu ul li a{
+            color: #1e293b !important;
+            opacity: 1 !important;
+            font-weight: 500;
+        }
+        .main-menu ul li a:hover,
+        .main-menu ul li a:focus,
+        .main-menu ul li.active > a{
+            color: #ea2429 !important;
+        }
+        /* Active-page underline accent */
+        .main-menu ul li.active > a{ position: relative; }
+        .main-menu ul li.active > a::after{
+            content: '';
+            position: absolute;
+            left: 20px; right: 20px; bottom: 4px;
+            height: 2px;
+            background: #ea2429;
+            border-radius: 2px;
+        }
+        /* Dropdown panel on white */
+        .main-menu ul ul{
+            background: #ffffff !important;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.10);
+            border: 1px solid #eef0f3;
+        }
+        .main-menu ul ul li a{ color: #1e293b !important; }
+        .main-menu ul ul li a:hover{ color: #ea2429 !important; }
+
+        /* Header CTA -> brand red */
+        .header-btn .btn-default{
+            background: #ea2429;
+            color: #ffffff;
+            border: 2px solid #ea2429;
+        }
+        .header-btn .btn-default::before{ background: #c41e22; }
+
+        /* Mobile toggle -> brand red */
+        .slicknav_btn{ background: #ea2429 !important; }
+        .responsive-menu .slicknav_nav a:hover{ color: #ea2429 !important; }
+
+        /* ===== Clean light professional footer ===== */
+        footer.main-footer{
+            background: #f8fafc !important;
+            border-top: 1px solid #eef0f3;
+            padding-top: 80px;
+        }
+        /* Newsletter */
+        .footer-newsletter-title h3{ color: #1e293b !important; }
+        .newsletter-form .form-group .form-control{
+            color: #1e293b !important;
+            background: #ffffff !important;
+            border: 1px solid #e2e8f0 !important;
+            border-right: none !important;
+            opacity: 1 !important;
+        }
+        .newsletter-form .form-group .form-control::placeholder{
+            color: #94a3b8 !important;
+            opacity: 1 !important;
+        }
+        .newsletter-form .form-group .newsletter-btn{ background-color: #ea2429 !important; }
+        .newsletter-form .form-group .newsletter-btn:hover{ background-color: #c41e22 !important; }
+
+        /* Link columns */
+        .footer-links h3{ color: #1e293b !important; }
+        .footer-links ul li{ color: #64748b !important; opacity: 1 !important; }
+        .footer-links ul li:hover{ color: #ea2429 !important; }
+
+        /* CTA card -> white card */
+        .footer-cta-box{
+            background-color: #ffffff !important;
+            border: 1px solid #eef0f3;
+            box-shadow: 0 6px 24px rgba(15, 23, 42, 0.05);
+        }
+        .footer-contact-item::before{ background-color: #e2e8f0 !important; }
+        .footer-contact-item p{ color: #64748b !important; opacity: 1 !important; }
+        .footer-contact-item h3{ color: #1e293b !important; }
+
+        /* Copyright row */
+        .footer-copyright{ border-top: 1px solid #eef0f3; margin-top: 20px; }
+        .footer-copyright-text p{ color: #64748b !important; opacity: 1 !important; }
+        .footer-menu ul li{ color: #64748b !important; opacity: 1 !important; }
+        .footer-menu ul li:hover{ color: #ea2429 !important; }
+        .footer-menu ul li::before{ background-color: #cbd5e1 !important; }
     </style>
 </head>
 <body>
@@ -132,7 +233,7 @@
                         <!-- Newsletter Form start -->
                         <div class="newsletter-form">
                             @if(session('success'))
-                                <div class="alert alert-success mb-3" style="background: rgba(255,255,255,0.2); color: white; border-radius: 8px; padding: 10px;">
+                                <div class="alert alert-success mb-3" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; border-radius: 8px; padding: 10px;">
                                     {{ session('success') }}
                                 </div>
                             @endif
@@ -145,7 +246,7 @@
                                     </button>
                                 </div>
                                 @error('email')
-                                    <small class="text-white">{{ $message }}</small>
+                                    <small style="color: #ea2429;">{{ $message }}</small>
                                 @enderror
                             </form>
                         </div>

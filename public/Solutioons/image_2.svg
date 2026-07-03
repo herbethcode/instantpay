@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="Cross-border payments">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5fb"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="globe" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6f9cba"/><stop offset="1" stop-color="#3f6b86"/></linearGradient>
+  </defs>
+  <rect width="480" height="480" rx="32" fill="url(#gbg)"/>
+  <circle cx="240" cy="240" r="172" fill="#dceaf5"/>
+
+  <!-- globe -->
+  <circle cx="240" cy="250" r="118" fill="url(#globe)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.65">
+    <ellipse cx="240" cy="250" rx="48" ry="118"/>
+    <ellipse cx="240" cy="250" rx="100" ry="118"/>
+    <line x1="122" y1="250" x2="358" y2="250"/>
+    <path d="M138 196 q102 -34 204 0"/>
+    <path d="M138 304 q102 34 204 0"/>
+  </g>
+  <!-- continents blobs -->
+  <g fill="#2faa56" opacity="0.85">
+    <path d="M210 200 q30 -16 52 4 q10 24 -10 40 q-30 14 -44 -8 q-12 -22 2 -36 z"/>
+    <path d="M250 270 q26 -6 30 18 q-4 26 -28 30 q-18 -2 -16 -26 q2 -18 14 -22 z"/>
+  </g>
+
+  <!-- transfer arc with plane -->
+  <path d="M120 150 q150 -70 250 40" fill="none" stroke="#ea2429" stroke-width="4" stroke-dasharray="3 10" stroke-linecap="round"/>
+  <circle cx="120" cy="150" r="8" fill="#ea2429"/>
+  <g transform="translate(360,176) rotate(40)">
+    <path d="M0 -12 L20 0 L0 12 L6 0 Z" fill="#3f6b86"/>
+  </g>
+
+  <!-- coins -->
+  <g>
+    <circle cx="118" cy="350" r="24" fill="#f5c518" stroke="#d9ab10" stroke-width="3"/><text x="118" y="356" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#9c7a08">TZS</text>
+    <circle cx="372" cy="338" r="20" fill="#f5c518" stroke="#d9ab10" stroke-width="3"/><text x="372" y="345" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#9c7a08">€</text>
+  </g>
+  <ellipse cx="240" cy="414" rx="120" ry="16" fill="#c3d6e6" opacity="0.5"/>
+</svg>

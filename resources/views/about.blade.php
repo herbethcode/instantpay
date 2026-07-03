@@ -173,12 +173,12 @@
 <!-- Our Priorities Section End -->
 
 <!-- Our Punchline Section Start -->
-<div class="punchline-section" style="padding: 80px 0; background: linear-gradient(135deg, #ea2429, #8b0000);">
+<div class="punchline-section" style="padding: 80px 0; background: #f8f9fa; border-top: 1px solid #f0f0f0; border-bottom: 1px solid #f0f0f0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="text-white mb-4 wow fadeInUp" style="font-size: 48px; font-weight: bold;">Safe, Secure & Reliable</h2>
-                <p class="text-white lead wow fadeInUp" data-wow-delay="0.2s">Together, with discipline and vision, we will shape the future of payments and build a company that is not only profitable but also meaningful in the lives of the people we serve.</p>
+                <h2 class="mb-4 wow fadeInUp" style="font-size: 48px; font-weight: bold; color: #ea2429;">Safe, Secure & Reliable</h2>
+                <p class="lead wow fadeInUp" data-wow-delay="0.2s" style="color: #555;">Together, with discipline and vision, we will shape the future of payments and build a company that is not only profitable but also meaningful in the lives of the people we serve.</p>
             </div>
         </div>
     </div>

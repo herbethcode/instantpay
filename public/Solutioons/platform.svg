@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" role="img" aria-label="InstantPay digital payment platform connecting POS, mobile, web and API">
+  <defs>
+    <linearGradient id="pfbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef5fb"/><stop offset="1" stop-color="#dbe9f5"/></linearGradient>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4d7793"/><stop offset="1" stop-color="#2f5266"/></linearGradient>
+  </defs>
+  <rect width="600" height="440" rx="24" fill="url(#pfbg)"/>
+
+  <!-- connectors -->
+  <g stroke="#9bbdd4" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round">
+    <line x1="300" y1="220" x2="120" y2="110"/><line x1="300" y1="220" x2="480" y2="110"/>
+    <line x1="300" y1="220" x2="120" y2="330"/><line x1="300" y1="220" x2="480" y2="330"/>
+  </g>
+
+  <!-- channel: POS (top-left) -->
+  <g transform="translate(82,66)">
+    <rect x="0" y="0" width="76" height="88" rx="12" fill="#ffffff" stroke="#cdd9e3" stroke-width="2"/>
+    <rect x="12" y="12" width="52" height="30" rx="5" fill="#d4eef2"/>
+    <g fill="#2f5266"><rect x="14" y="50" width="14" height="11" rx="2"/><rect x="31" y="50" width="14" height="11" rx="2"/><rect x="48" y="50" width="14" height="11" rx="2"/><rect x="14" y="65" width="14" height="11" rx="2"/><rect x="31" y="65" width="14" height="11" rx="2"/><rect x="48" y="65" width="14" height="11" rx="2" fill="#2faa56"/></g>
+    <text x="38" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#3f6b86">POS</text>
+  </g>
+  <!-- channel: Mobile (top-right) -->
+  <g transform="translate(442,62)">
+    <rect x="0" y="0" width="60" height="94" rx="12" fill="#ffffff" stroke="#cdd9e3" stroke-width="2"/>
+    <rect x="8" y="10" width="44" height="68" rx="6" fill="#d4eef2"/>
+    <circle cx="30" cy="86" r="4" fill="#9bbdd4"/>
+    <path d="M30 30 a8 8 0 1 1 11 0 a8 8 0 1 0 11 0" fill="none" stroke="#ea2429" stroke-width="4" stroke-linecap="round" transform="translate(-11,8)"/>
+    <text x="30" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#3f6b86">Mobile</text>
+  </g>
+  <!-- channel: Web (bottom-left) -->
+  <g transform="translate(74,286)">
+    <rect x="0" y="0" width="92" height="70" rx="10" fill="#ffffff" stroke="#cdd9e3" stroke-width="2"/>
+    <rect x="0" y="0" width="92" height="16" rx="10" fill="#e4eef6"/><rect x="0" y="10" width="92" height="6" fill="#e4eef6"/>
+    <circle cx="10" cy="8" r="3" fill="#ea2429"/><circle cx="20" cy="8" r="3" fill="#f5c518"/><circle cx="30" cy="8" r="3" fill="#2faa56"/>
+    <rect x="12" y="28" width="40" height="8" rx="4" fill="#cdd9e3"/><rect x="12" y="42" width="68" height="8" rx="4" fill="#dde7ef"/>
+    <text x="46" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#3f6b86">Web</text>
+  </g>
+  <!-- channel: API (bottom-right) -->
+  <g transform="translate(444,290)">
+    <rect x="0" y="0" width="76" height="64" rx="12" fill="#ffffff" stroke="#cdd9e3" stroke-width="2"/>
+    <text x="38" y="42" text-anchor="middle" font-family="monospace" font-size="26" font-weight="700" fill="#3f6b86">&#123;&#125;</text>
+    <text x="38" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#3f6b86">API</text>
+  </g>
+
+  <!-- central hub -->
+  <circle cx="300" cy="220" r="74" fill="#cfe0ee"/>
+  <rect x="248" y="180" width="104" height="80" rx="16" fill="url(#hub)"/>
+  <path d="M276 224 a11 11 0 1 1 15 0 a11 11 0 1 0 15 0" fill="none" stroke="#ea2429" stroke-width="6" stroke-linecap="round"/>
+  <text x="300" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">InstantPay</text>
+</svg>

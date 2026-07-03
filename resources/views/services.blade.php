@@ -85,7 +85,7 @@
         <div class="row mt-5">
             <div class="col-lg-6 mb-4">
                 <div class="service-image-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('Solutioons/api_image.png') }}" alt="Card Processing" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover;">
+                    <img src="{{ asset('Solutioons/api_image.svg') }}" alt="Card Processing" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover;">
                     <div class="p-4 text-center">
                         <h5 style="color: #ea2429;">Transaction Processing Platform</h5>
                         <p class="mb-0 text-muted">Secure card payment processing infrastructure</p>
@@ -94,7 +94,7 @@
             </div>
             <div class="col-lg-6 mb-4">
                 <div class="service-image-card wow fadeInUp" data-wow-delay="0.2s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('images/payment-solutions/pos-solutions-clean.jpg') }}" alt="POS Devices" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover;">
+                    <img src="{{ asset('Solutioons/image_1.svg') }}" alt="POS Devices" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover;">
                     <div class="p-4 text-center">
                         <h5 style="color: #ea2429;">POS Hardware Range</h5>
                         <p class="mb-0 text-muted">MiniPOS and Standard terminals for every business</p>
@@ -112,7 +112,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/Card Issuance.png') }}" alt="Card Issuance" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/Card Issuance.svg') }}" alt="Card Issuance" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -167,7 +167,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/api_image.png') }}" alt="Card Processing" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/api_image.svg') }}" alt="Card Processing" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -208,7 +208,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('images/payment-solutions/pos-solutions-clean.jpg') }}" alt="POS Solutions" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/image_1.svg') }}" alt="POS Solutions" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -298,7 +298,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/Ecommerce.png') }}" alt="E-Commerce Checkout" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/Ecommerce.svg') }}" alt="E-Commerce Checkout" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -324,7 +324,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/Ecommerce.png') }}" alt="Pay-by-Link" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/Ecommerce.svg') }}" alt="Pay-by-Link" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -355,7 +355,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/api_image.png') }}" alt="Payment APIs and Mobile Money" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/api_image.svg') }}" alt="Payment APIs and Mobile Money" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -420,7 +420,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/weareble.jpeg') }}" alt="Wearable Payments" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/weareble.svg') }}" alt="Wearable Payments" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -456,7 +456,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/sgr_photo.jpg') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/sgr_photo.svg') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -612,7 +612,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('images/payment-solutions/cross-border-product.jpg') }}" alt="Cross-Border Transfers" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/image_2.svg') }}" alt="Cross-Border Transfers" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -712,7 +712,7 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="solution-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.1); height: 100%; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="solution-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/weareble.jpeg') }}" alt="Wearables" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('Solutioons/weareble.svg') }}" alt="Wearables" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="solution-content p-4">
                         <h4 style="color: #ea2429;">Wearable Payments</h4>
@@ -750,7 +750,7 @@
 <!-- Featured Solutions Section End -->
 
 <!-- CTA Section Start -->
-<div class="cta-section" style="padding: 100px 0; background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), url('{{ asset('images/payment-solutions/cta-payment-experience-premium.jpg') }}'); background-size: cover; background-position: center;">
+<div class="cta-section" style="padding: 100px 0; background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), url('{{ asset('images/payment-solutions/cta-payment-experience-premium.svg') }}'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">

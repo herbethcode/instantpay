@@ -260,7 +260,7 @@
 {{--<!-- Gallery Section End -->--}}
 
 <!-- CTA Section Start -->
-<div class="cta-section" style="padding: 80px 0; background: linear-gradient(rgba(234,36,41,0.9), rgba(139,0,0,0.9)), url('{{ asset('images/payment-solutions/cta-payment-experience-premium.jpg') }}'); background-size: cover; background-position: center; color: white;">
+<div class="cta-section" style="padding: 80px 0; background: linear-gradient(rgba(234,36,41,0.9), rgba(139,0,0,0.9)), url('{{ asset('images/payment-solutions/cta-payment-experience-premium.svg') }}'); background-size: cover; background-position: center; color: white;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">

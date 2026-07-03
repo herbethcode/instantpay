@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="SGR Tanzania train fare payment">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5fb"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="train" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dbe8f1"/></linearGradient>
+  </defs>
+  <rect width="480" height="480" rx="32" fill="url(#sbg)"/>
+  <circle cx="240" cy="230" r="172" fill="#dceaf5"/>
+
+  <!-- platform -->
+  <rect x="40" y="338" width="400" height="14" rx="7" fill="#9bbdd4"/>
+  <rect x="40" y="356" width="400" height="8" rx="4" fill="#c3d6e6"/>
+
+  <!-- train (front 3/4 view) -->
+  <g>
+    <path d="M120 150 q70 -34 220 0 a14 14 0 0 1 10 13 v150 a12 12 0 0 1 -12 12 H122 a12 12 0 0 1 -12 -12 V163 a14 14 0 0 1 10 -13 z" fill="url(#train)" stroke="#aebfce" stroke-width="3"/>
+    <!-- windshield -->
+    <path d="M150 168 q88 -22 176 0 l-8 40 q-80 -16 -160 0 z" fill="#2f5266"/>
+    <path d="M150 168 q88 -22 176 0 l-3 14 q-85 -19 -170 0 z" fill="#4d7793" opacity="0.7"/>
+    <!-- red accent stripe -->
+    <rect x="112" y="226" width="248" height="14" fill="#ea2429"/>
+    <!-- side windows -->
+    <g fill="#bcd6e6">
+      <rect x="128" y="252" width="40" height="34" rx="6"/>
+      <rect x="180" y="252" width="40" height="34" rx="6"/>
+      <rect x="232" y="252" width="40" height="34" rx="6"/>
+      <rect x="284" y="252" width="40" height="34" rx="6"/>
+    </g>
+    <!-- headlights -->
+    <circle cx="150" cy="306" r="7" fill="#f5c518"/><circle cx="322" cy="306" r="7" fill="#f5c518"/>
+  </g>
+
+  <!-- commuter tapping phone at a fare gate -->
+  <g transform="translate(372,250)">
+    <rect x="-12" y="0" width="34" height="92" rx="8" fill="#3f6b86"/>
+    <rect x="-4" y="14" width="18" height="20" rx="4" fill="#2faa56"/>
+    <path d="M-1 24 l4 4 l8 -9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <ellipse cx="240" cy="392" rx="150" ry="14" fill="#c3d6e6" opacity="0.45"/>
+</svg>

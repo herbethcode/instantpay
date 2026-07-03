@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="E-commerce checkout and pay-by-link">
+  <defs>
+    <linearGradient id="ebg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5fb"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  </defs>
+  <rect width="480" height="480" rx="32" fill="url(#ebg)"/>
+  <circle cx="240" cy="240" r="172" fill="#dceaf5"/>
+
+  <!-- browser window -->
+  <g>
+    <rect x="92" y="116" width="296" height="208" rx="16" fill="#ffffff" stroke="#cdd9e3" stroke-width="2"/>
+    <rect x="92" y="116" width="296" height="34" rx="16" fill="#e4eef6"/>
+    <rect x="92" y="138" width="296" height="12" fill="#e4eef6"/>
+    <circle cx="112" cy="133" r="5" fill="#ea2429"/><circle cx="130" cy="133" r="5" fill="#f5c518"/><circle cx="148" cy="133" r="5" fill="#2faa56"/>
+    <!-- product -->
+    <rect x="116" y="172" width="96" height="96" rx="10" fill="#dceaf5"/>
+    <rect x="140" y="196" width="48" height="48" rx="8" fill="#6f9cba"/>
+    <!-- lines -->
+    <rect x="232" y="178" width="128" height="12" rx="6" fill="#cdd9e3"/>
+    <rect x="232" y="200" width="92" height="10" rx="5" fill="#dde7ef"/>
+    <text x="232" y="248" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#1e3a47">TZS 120,000</text>
+    <!-- pay button -->
+    <rect x="232" y="270" width="128" height="36" rx="18" fill="#2faa56"/>
+    <text x="296" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Pay Now</text>
+  </g>
+
+  <!-- shopping bag -->
+  <g transform="translate(300,300)">
+    <path d="M0 24 L8 96 L84 96 L92 24 Z" fill="#4d7793"/>
+    <path d="M26 24 v-10 a20 20 0 0 1 40 0 v10" fill="none" stroke="#3f6b86" stroke-width="6"/>
+    <path d="M30 52 a16 16 0 0 0 32 0" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <ellipse cx="240" cy="416" rx="120" ry="16" fill="#c3d6e6" opacity="0.5"/>
+</svg>

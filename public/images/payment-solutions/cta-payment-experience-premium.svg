@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Payment experience banner">
+  <defs>
+    <linearGradient id="ctabg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfe0ee"/>
+      <stop offset="1" stop-color="#aec8dd"/>
+    </linearGradient>
+    <linearGradient id="ctacard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f9cba"/><stop offset="1" stop-color="#3f6b86"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#ctabg)"/>
+
+  <!-- faint concentric / dotted texture -->
+  <g fill="none" stroke="#ffffff" stroke-width="2" opacity="0.25">
+    <circle cx="150" cy="120" r="60"/><circle cx="150" cy="120" r="100"/>
+    <circle cx="1050" cy="400" r="70"/><circle cx="1050" cy="400" r="120"/>
+  </g>
+  <g fill="#ffffff" opacity="0.18">
+    <circle cx="300" cy="60" r="6"/><circle cx="360" cy="90" r="6"/><circle cx="420" cy="60" r="6"/>
+    <circle cx="820" cy="440" r="6"/><circle cx="880" cy="470" r="6"/><circle cx="940" cy="440" r="6"/>
+  </g>
+
+  <!-- phone -->
+  <g transform="translate(150,150)" opacity="0.9">
+    <rect x="0" y="0" width="150" height="290" rx="26" fill="#2f5266"/>
+    <rect x="12" y="14" width="126" height="262" rx="16" fill="#eaf3f9"/>
+    <circle cx="75" cy="120" r="34" fill="#e7f6ec" stroke="#2faa56" stroke-width="4"/>
+    <path d="M60 120 l11 11 l20 -23" fill="none" stroke="#2faa56" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="75" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a47">TZS 50,000</text>
+    <rect x="30" y="214" width="90" height="26" rx="13" fill="#4d7793"/>
+  </g>
+
+  <!-- big card -->
+  <g transform="rotate(-10 720 250)" opacity="0.95">
+    <rect x="560" y="170" width="320" height="200" rx="22" fill="url(#ctacard)"/>
+    <rect x="592" y="210" width="56" height="42" rx="7" fill="#f5c518"/>
+    <path d="M690 214 a14 14 0 1 1 19 0 a14 14 0 1 0 19 0" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <rect x="592" y="290" width="240" height="14" rx="7" fill="#ffffff" opacity="0.8"/>
+    <rect x="592" y="316" width="150" height="14" rx="7" fill="#ffffff" opacity="0.55"/>
+  </g>
+
+  <!-- coins -->
+  <g>
+    <circle cx="1000" cy="150" r="44" fill="#f5c518" stroke="#d9ab10" stroke-width="5"/>
+    <text x="1000" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#9c7a08">TZS</text>
+    <circle cx="1080" cy="230" r="32" fill="#f5c518" stroke="#d9ab10" stroke-width="5"/>
+    <text x="1080" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#9c7a08">TZS</text>
+  </g>
+</svg>

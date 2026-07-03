@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="InstantPay F55 Duo POS terminal">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef5fb"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="case1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f9cba"/>
+      <stop offset="1" stop-color="#4d7793"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft backdrop -->
+  <rect width="480" height="480" rx="32" fill="url(#bg1)"/>
+  <circle cx="240" cy="232" r="170" fill="#dceaf5"/>
+
+  <!-- shadow -->
+  <ellipse cx="232" cy="430" rx="120" ry="18" fill="#c3d6e6" opacity="0.6"/>
+
+  <!-- device body (keypad side) -->
+  <g>
+    <rect x="146" y="64" width="190" height="356" rx="34" fill="url(#case1)" stroke="#3f6b86" stroke-width="3"/>
+    <!-- top nub / card slot -->
+    <rect x="206" y="56" width="70" height="14" rx="7" fill="#3f6b86"/>
+
+    <!-- brand mark + name -->
+    <g transform="translate(174,92)">
+      <path d="M6 14 a10 10 0 1 1 14 0 a10 10 0 1 0 14 0" fill="none" stroke="#ea2429" stroke-width="6" stroke-linecap="round"/>
+      <text x="46" y="20" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">InstantPay</text>
+    </g>
+
+    <!-- LCD screen -->
+    <rect x="170" y="124" width="142" height="62" rx="8" fill="#d4eef2" stroke="#2f5266" stroke-width="3"/>
+    <text x="241" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e3a47">TZS 50,000</text>
+    <text x="241" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3a5b6b">Please enter your password</text>
+
+    <!-- keypad: numbers 1-9 -->
+    <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">
+      <!-- row 1 -->
+      <rect x="172" y="206" width="42" height="34" rx="9" fill="#2b2b30"/><text x="193" y="229">1</text>
+      <rect x="220" y="206" width="42" height="34" rx="9" fill="#2b2b30"/><text x="241" y="229">2</text>
+      <rect x="268" y="206" width="42" height="34" rx="9" fill="#2b2b30"/><text x="289" y="229">3</text>
+      <!-- row 2 -->
+      <rect x="172" y="248" width="42" height="34" rx="9" fill="#2b2b30"/><text x="193" y="271">4</text>
+      <rect x="220" y="248" width="42" height="34" rx="9" fill="#2b2b30"/><text x="241" y="271">5</text>
+      <rect x="268" y="248" width="42" height="34" rx="9" fill="#2b2b30"/><text x="289" y="271">6</text>
+      <!-- row 3 -->
+      <rect x="172" y="290" width="42" height="34" rx="9" fill="#2b2b30"/><text x="193" y="313">7</text>
+      <rect x="220" y="290" width="42" height="34" rx="9" fill="#2b2b30"/><text x="241" y="313">8</text>
+      <rect x="268" y="290" width="42" height="34" rx="9" fill="#2b2b30"/><text x="289" y="313">9</text>
+      <!-- row 4: function keys -->
+      <rect x="172" y="332" width="42" height="34" rx="9" fill="#ea2429"/><text x="193" y="355">✕</text>
+      <rect x="220" y="332" width="42" height="34" rx="9" fill="#f5c518"/><text x="241" y="355" fill="#3a3a3a">0</text>
+      <rect x="268" y="332" width="42" height="34" rx="9" fill="#2faa56"/><text x="289" y="355">✓</text>
+    </g>
+  </g>
+
+  <!-- contactless card being tapped -->
+  <g transform="rotate(-18 360 150)">
+    <rect x="312" y="120" width="96" height="62" rx="9" fill="#ffffff" stroke="#cdd9e3" stroke-width="2"/>
+    <rect x="312" y="120" width="96" height="20" rx="9" fill="#4d7793"/>
+    <rect x="322" y="150" width="22" height="16" rx="3" fill="#f5c518"/>
+    <rect x="322" y="170" width="50" height="5" rx="2.5" fill="#cdd9e3"/>
+  </g>
+  <!-- NFC waves -->
+  <g fill="none" stroke="#4d7793" stroke-width="4" stroke-linecap="round" opacity="0.9">
+    <path d="M398 196 a18 18 0 0 1 0 26"/>
+    <path d="M410 188 a32 32 0 0 1 0 42"/>
+  </g>
+</svg>

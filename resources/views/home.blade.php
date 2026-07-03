@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-6">
                 <div class="about-image-box wow fadeInUp">
                     <div class="about-image" style="position: relative;">
-                        <img src="{{ asset('homepage/INSP(25of113).jpg') }}" alt="About InstantPayment Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
+                        <img src="{{ asset('Solutioons/about-instantpay.svg') }}" alt="About InstantPayment Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                         <div style="position: absolute; bottom: -30px; right: -30px; z-index: 2;">
                             <img src="{{ asset('homepage/INSP(27of113) (1).jpg') }}" alt="Team" class="img-fluid rounded shadow-lg" style="width: 250px; height: 250px; object-fit: cover; border: 5px solid white; border-radius: 15px;">
                         </div>
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-6">
                 <div class="about-content wow fadeInUp" data-wow-delay="0.2s" style="padding-left: 30px;">
                     <div class="section-title">
-                        <h3 class="wow fadeInUp" style="color: #ea2429;">About Us</h3>
+                        <h3 class="wow fadeInUp" style="color: #334155;">About Us</h3>
                         <h2 class="text-anime-style-2 mb-4" data-cursor="-opaque">Building Tanzania's Digital Payment Future</h2>
                     </div>
 
@@ -272,8 +272,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <p style="font-size: 1.1rem; line-height: 1.8;">Our journey began <strong>3 years ago</strong> with a clear purpose: to bridge the gap in digital payments and empower businesses, individuals, and institutions to transact seamlessly anytime, anywhere.</p>
 
-                        <div class="mission-box mt-4 p-4" style="background: #f8f9fa; border-left: 4px solid #ea2429; border-radius: 10px;">
-                            <h5 style="color: #ea2429; margin-bottom: 15px;"><i class="fas fa-bullseye"></i> Our Mission</h5>
+                        <div class="mission-box mt-4 p-4" style="background: #f8fafc; border-left: 4px solid #334155; border-radius: 10px;">
+                            <h5 style="color: #1e293b; margin-bottom: 15px;"><i class="fas fa-bullseye"></i> Our Mission</h5>
                             <p class="mb-0">We exist to simplify financial interactions, eliminate inefficiencies, and drive the nation's transition toward a fully digitized, cashless economy. Our solutions are not just about speed, but also about <strong>trust, security, and inclusivity</strong> — ensuring that every payment tells a story of progress and opportunity.</p>
                         </div>
 
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center">
-                    <h3 class="wow fadeInUp" style="color: #ea2429;">Our Foundation</h3>
+                    <h3 class="wow fadeInUp" style="color: #334155;">Our Foundation</h3>
                     <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Built on Strong Values</h2>
                     <p class="wow fadeInUp lead" data-wow-delay="0.2s" style="max-width: 700px; margin: 0 auto;">Our team is guided by a strong commitment to integrity, responsibility, and excellence</p>
                 </div>
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4" style="background: linear-gradient(135deg, #ea2429, #c41e22); color: white; width: 80px; height: 80px; border-radius: 15px; display: flex; align-items: center; justify-content: center;">
                         <i class="fas fa-shield-alt fa-3x"></i>
                     </div>
-                    <h3 style="color: #ea2429; margin-bottom: 20px;">Integrity</h3>
+                    <h3 style="color: #1e293b; margin-bottom: 20px;">Integrity</h3>
                     <p style="font-size: 1rem; line-height: 1.8; color: #666;">By holding ourselves accountable, we safeguard the trust placed in us and ensure our operations are compliant, transparent, and sustainable.</p>
                 </div>
             </div>
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4" style="background: linear-gradient(135deg, #ea2429, #c41e22); color: white; width: 80px; height: 80px; border-radius: 15px; display: flex; align-items: center; justify-content: center;">
                         <i class="fas fa-users fa-3x"></i>
                     </div>
-                    <h3 style="color: #ea2429; margin-bottom: 20px;">Responsibility</h3>
+                    <h3 style="color: #1e293b; margin-bottom: 20px;">Responsibility</h3>
                     <p style="font-size: 1rem; line-height: 1.8; color: #666;">We take ownership of our actions and their impact on our customers, partners, and the communities we serve across Tanzania.</p>
                 </div>
             </div>
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4" style="background: linear-gradient(135deg, #ea2429, #c41e22); color: white; width: 80px; height: 80px; border-radius: 15px; display: flex; align-items: center; justify-content: center;">
                         <i class="fas fa-star fa-3x"></i>
                     </div>
-                    <h3 style="color: #ea2429; margin-bottom: 20px;">Excellence</h3>
+                    <h3 style="color: #1e293b; margin-bottom: 20px;">Excellence</h3>
                     <p style="font-size: 1rem; line-height: 1.8; color: #666;">We strive for the highest standards in everything we do, continuously improving our services and innovative solutions.</p>
                 </div>
             </div>
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-5">
-                    <h3 class="wow fadeInUp" style="color: #ea2429;">Our Focus</h3>
+                    <h3 class="wow fadeInUp" style="color: #334155;">Our Focus</h3>
                     <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Three Strategic Priorities</h2>
                     <p class="wow fadeInUp lead" data-wow-delay="0.2s">As we continue to grow, we remain focused on these key areas</p>
                 </div>
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4">
                         <i class="fas fa-lightbulb fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3 style="color: #ea2429; margin-bottom: 20px; font-size: 28px;">Innovation</h3>
+                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">Innovation</h3>
                     <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">Creating solutions that respond to real-time needs and drive technological advancement in Tanzania's payment ecosystem.</p>
                 </div>
             </div>
@@ -365,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4">
                         <i class="fas fa-handshake fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3 style="color: #ea2429; margin-bottom: 20px; font-size: 28px;">Partnership</h3>
+                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">Partnership</h3>
                     <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">Collaborating with regulators, banks, and businesses to build a stronger, more integrated financial ecosystem for all.</p>
                 </div>
             </div>
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4">
                         <i class="fas fa-chart-line fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3 style="color: #ea2429; margin-bottom: 20px; font-size: 28px;">Impact</h3>
+                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">Impact</h3>
                     <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">Driving financial inclusion and contributing to Tanzania's vision of a cashless, digital economy that benefits everyone.</p>
                 </div>
             </div>
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-5">
-                    <h3 class="wow fadeInUp" style="color: #ea2429;">Our Services</h3>
+                    <h3 class="wow fadeInUp" style="color: #334155;">Our Services</h3>
                     <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Comprehensive Payment Solutions</h2>
                     <p class="wow fadeInUp lead" data-wow-delay="0.2s">From POS terminals to cross-border payments, we provide complete digital payment infrastructure</p>
                 </div>
@@ -401,7 +401,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="service-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/image_1.png') }}" alt="POS Solutions" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('Solutioons/image_1.svg') }}" alt="POS Solutions" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="service-content" style="padding: 30px;">
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-card wow fadeInUp" data-wow-delay="0.2s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="service-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/api_image.png') }}" alt="Payment APIs and Mobile Money" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('Solutioons/api_image.svg') }}" alt="Payment APIs and Mobile Money" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="service-content" style="padding: 30px;">
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
@@ -433,7 +433,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-card wow fadeInUp" data-wow-delay="0.4s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="service-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/Ecommerce.png') }}" alt="E-Commerce" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('Solutioons/Ecommerce.svg') }}" alt="E-Commerce" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="service-content" style="padding: 30px;">
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-card wow fadeInUp" data-wow-delay="0.8s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="service-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/image_2.png') }}" alt="Cross-Border Payments" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('Solutioons/image_2.svg') }}" alt="Cross-Border Payments" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="service-content" style="padding: 30px;">
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-card wow fadeInUp" data-wow-delay="1s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="service-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/weareble.jpeg') }}" alt="Wearable Payments" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('Solutioons/weareble.svg') }}" alt="Wearable Payments" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="service-content" style="padding: 30px;">
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
@@ -489,7 +489,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-5">
-                    <h3 class="wow fadeInUp" style="color: #ea2429;">Innovation in Action</h3>
+                    <h3 class="wow fadeInUp" style="color: #334155;">Innovation in Action</h3>
                     <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Featured Solutions</h2>
                     <p class="wow fadeInUp lead" data-wow-delay="0.2s">Transforming how Tanzania pays with cutting-edge technology</p>
                 </div>
@@ -499,7 +499,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row align-items-center mb-5 pb-5">
             <div class="col-lg-6">
                 <div class="solution-image wow fadeInUp" style="position: relative;">
-                    <img src="{{ asset('homepage/HGA_5249 (1).jpg') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
+                    <img src="{{ asset('Solutioons/platform.svg') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                     <div style="position: absolute; top: 20px; left: 20px; background: rgba(234,36,41,0.9); color: white; padding: 10px 20px; border-radius: 50px; backdrop-filter: blur(10px);">
                         <i class="fas fa-bolt"></i> Instant Payments
                     </div>
@@ -507,7 +507,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="col-lg-6">
                 <div class="solution-content wow fadeInUp" data-wow-delay="0.2s" style="padding-left: 40px;">
-                    <h3 style="color: #ea2429; font-size: 32px; margin-bottom: 20px;">InstantPay Digital Payment Platform</h3>
+                    <h3 style="color: #1e293b; font-size: 32px; margin-bottom: 20px;">InstantPay Digital Payment Platform</h3>
                     <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">InstantPay is Tanzania's premier digital payment solution, connecting businesses, individuals, and institutions through secure, real-time transactions. Our comprehensive payment platform processes thousands of transactions daily with 99.9% uptime reliability.</p>
                     <ul class="feature-list" style="list-style: none; padding: 0;">
                         <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Real-time payment processing across Tanzania</li>
@@ -522,7 +522,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="solution-image wow fadeInUp" style="position: relative;">
-                    <img src="{{ asset('homepage/INSP(27of113) (1).jpg') }}" alt="InstantPay Business Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
+                    <img src="{{ asset('Solutioons/merchants.svg') }}" alt="InstantPay Business Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                     <div style="position: absolute; top: 20px; right: 20px; background: rgba(234,36,41,0.9); color: white; padding: 10px 20px; border-radius: 50px; backdrop-filter: blur(10px);">
                         <i class="fas fa-store"></i> Business Growth
                     </div>
@@ -530,7 +530,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="solution-content wow fadeInUp" data-wow-delay="0.2s" style="padding-right: 40px;">
-                    <h3 style="color: #ea2429; font-size: 32px; margin-bottom: 20px;">Empowering Over 1,000+ Tanzanian Merchants</h3>
+                    <h3 style="color: #1e293b; font-size: 32px; margin-bottom: 20px;">Empowering Over 1,000+ Tanzanian Merchants</h3>
                     <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">From small businesses to large enterprises, we're proud to serve Tanzania's merchant community with reliable, secure, and innovative payment solutions that help them grow and thrive.</p>
                     <ul class="feature-list" style="list-style: none; padding: 0;">
                         <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Easy integration with existing business systems</li>
@@ -551,7 +551,7 @@ document.addEventListener('DOMContentLoaded', function() {
 {{--        <div class="row">--}}
 {{--            <div class="col-lg-12">--}}
 {{--                <div class="section-title text-center mb-5">--}}
-{{--                    <h3 class="wow fadeInUp" style="color: #ea2429;">Our Journey</h3>--}}
+{{--                    <h3 class="wow fadeInUp" style="color: #334155;">Our Journey</h3>--}}
 {{--                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Making an Impact Across Tanzania</h2>--}}
 {{--                    <p class="wow fadeInUp lead" data-wow-delay="0.2s">See how we're transforming payment experiences</p>--}}
 {{--                </div>--}}
@@ -562,7 +562,7 @@ document.addEventListener('DOMContentLoaded', function() {
 {{--            @php--}}
 {{--                $galleryImages = [--}}
 {{--                    'homepage/HGA_5249 (1).jpg', 'homepage/INSP(25of113).jpg', 'homepage/INSP(27of113).jpg', 'homepage/INSP(6of113).jpg',--}}
-{{--                    'Solutioons/Card Issuance.png', 'Solutioons/Ecommerce.png', 'Solutioons/weareble.jpeg', 'Solutioons/api_image.png'--}}
+{{--                    'Solutioons/Card Issuance.svg', 'Solutioons/Ecommerce.svg', 'Solutioons/weareble.svg', 'Solutioons/api_image.svg'--}}
 {{--                ];--}}
 {{--            @endphp--}}
 
@@ -579,13 +579,13 @@ document.addEventListener('DOMContentLoaded', function() {
 {{--<!-- Gallery Section End -->--}}
 
 <!-- Testimonial/Stats Section Start -->
-<div class="stats-section" style="padding: 100px 0; background: linear-gradient(135deg, #ea2429, #8b0000); color: white;">
+<div class="stats-section" style="padding: 100px 0; background: #ffffff; border-top: 1px solid #f0f0f0; border-bottom: 1px solid #f0f0f0; color: #333;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-5">
-                    <h3 class="wow fadeInUp text-white">Our Impact</h3>
-                    <h2 class="text-anime-style-2 text-white mb-3" data-cursor="-opaque">Trusted by Thousands Across Tanzania</h2>
+                    <h3 class="wow fadeInUp" style="color: #334155;">Our Impact</h3>
+                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque" style="color: #1a1a1a;">Trusted by Thousands Across Tanzania</h2>
                 </div>
             </div>
         </div>
@@ -593,26 +593,26 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" style="padding: 30px;">
-                    <h2 class="text-white mb-2" style="font-size: 48px; font-weight: bold;"><span class="counter">3</span>+</h2>
-                    <p class="text-white mb-0" style="font-size: 1.2rem;">Years of Experience</p>
+                    <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">3</span>+</h2>
+                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">Years of Experience</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" data-wow-delay="0.2s" style="padding: 30px;">
-                    <h2 class="text-white mb-2" style="font-size: 48px; font-weight: bold;"><span class="counter">1000</span>+</h2>
-                    <p class="text-white mb-0" style="font-size: 1.2rem;">Merchants Empowered</p>
+                    <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">1000</span>+</h2>
+                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">Merchants Empowered</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" data-wow-delay="0.4s" style="padding: 30px;">
-                    <h2 class="text-white mb-2" style="font-size: 48px; font-weight: bold;"><span class="counter">99.9</span>%</h2>
-                    <p class="text-white mb-0" style="font-size: 1.2rem;">Uptime Guarantee</p>
+                    <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">99.9</span>%</h2>
+                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">Uptime Guarantee</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" data-wow-delay="0.6s" style="padding: 30px;">
-                    <h2 class="text-white mb-2" style="font-size: 48px; font-weight: bold;"><span class="counter">24</span>/7</h2>
-                    <p class="text-white mb-0" style="font-size: 1.2rem;">Customer Support</p>
+                    <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">24</span>/7</h2>
+                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">Customer Support</p>
                 </div>
             </div>
         </div>
