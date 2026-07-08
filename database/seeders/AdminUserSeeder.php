@@ -15,7 +15,7 @@ class AdminUserSeeder extends Seeder
     {
         User::create([
             'name' => 'Admin User',
-            'email' => 'admin@instantpay.com',
+            'email' => 'admin',
             'password' => Hash::make('password'),
             'role' => 'admin',
             'email_verified_at' => now(),
