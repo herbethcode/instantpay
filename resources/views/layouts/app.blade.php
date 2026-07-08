@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <!-- Meta -->
     <meta charset="utf-8">
@@ -142,6 +142,12 @@
         .footer-menu ul li{ color: #64748b !important; opacity: 1 !important; }
         .footer-menu ul li:hover{ color: #ea2429 !important; }
         .footer-menu ul li::before{ background-color: #cbd5e1 !important; }
+
+        /* Language switcher */
+        .lang-switcher{ font-size: 13px; font-weight: 600; }
+        .lang-switcher a{ color: #94a3b8 !important; padding: 0 4px; }
+        .lang-switcher a.active{ color: #ea2429 !important; }
+        .lang-switcher .sep{ color: #cbd5e1; }
     </style>
 </head>
 <body>
@@ -171,35 +177,48 @@
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
                                 <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
-                                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                                    <a class="nav-link" href="{{ url('/') }}">{{ __('Home') }}</a>
                                 </li>
                                 <li class="nav-item {{ request()->is('about') ? 'active' : '' }}">
-                                    <a class="nav-link" href="{{ url('/about') }}">About Us</a>
+                                    <a class="nav-link" href="{{ url('/about') }}">{{ __('About Us') }}</a>
                                 </li>
                                 <li class="nav-item {{ request()->is('services*') ? 'active' : '' }}">
-                                    <a class="nav-link" href="{{ url('/services') }}">Services</a>
+                                    <a class="nav-link" href="{{ url('/services') }}">{{ __('Services') }}</a>
                                 </li>
 {{--                                <li class="nav-item {{ request()->is('team') ? 'active' : '' }}">--}}
-{{--                                    <a class="nav-link" href="{{ url('/team') }}">Our Team</a>--}}
+{{--                                    <a class="nav-link" href="{{ url('/team') }}">{{ __('Our Team') }}</a>--}}
 {{--                                </li>--}}
+                                <li class="nav-item {{ request()->is('careers') ? 'active' : '' }}">
+                                    <a class="nav-link" href="{{ url('/careers') }}">{{ __('Careers') }}</a>
+                                </li>
                                 <li class="nav-item {{ request()->is('blog*') ? 'active' : '' }}">
-                                    <a class="nav-link" href="{{ url('/blog') }}">Blog</a>
+                                    <a class="nav-link" href="{{ url('/blog') }}">{{ __('Blog') }}</a>
+                                </li>
+                                <li class="nav-item {{ request()->is('faq') ? 'active' : '' }}">
+                                    <a class="nav-link" href="{{ url('/faq') }}">{{ __('FAQ') }}</a>
                                 </li>
                                 <li class="nav-item {{ request()->is('contact') ? 'active' : '' }}">
-                                    <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
+                                    <a class="nav-link" href="{{ url('/contact') }}">{{ __('Contact Us') }}</a>
                                 </li>
                             </ul>
                         </div>
+                        <!-- Language Switcher Start -->
+                        <div class="lang-switcher d-inline-flex align-items-center me-3">
+                            <a href="{{ route('lang.switch', 'en') }}" class="{{ app()->getLocale() === 'en' ? 'active' : '' }}">EN</a>
+                            <span class="sep">|</span>
+                            <a href="{{ route('lang.switch', 'sw') }}" class="{{ app()->getLocale() === 'sw' ? 'active' : '' }}">SW</a>
+                        </div>
+                        <!-- Language Switcher End -->
                         <!-- Header Btn Start -->
                         <div class="header-btn d-inline-flex">
                             @auth
                                 @if(in_array(auth()->user()->role, ['admin', 'editor']))
-                                    <a href="{{ route('admin.dashboard') }}" class="btn-default">Admin Panel</a>
+                                    <a href="{{ route('admin.dashboard') }}" class="btn-default">{{ __('Admin Panel') }}</a>
                                 @else
-                                    <a href="{{ route('dashboard') }}" class="btn-default">Dashboard</a>
+                                    <a href="{{ route('dashboard') }}" class="btn-default">{{ __('Dashboard') }}</a>
                                 @endif
                             @else
-                                <a href="{{ route('contact') }}" class="btn-default btn-highlighted">Get Started</a>
+                                <a href="{{ route('contact') }}" class="btn-default btn-highlighted">{{ __('Get Started') }}</a>
                             @endauth
                         </div>
                         <!-- Header Btn End -->
@@ -226,7 +245,7 @@
                     <div class="footer-newsletter-box">
                         <!-- Footer Newsletter Title Start -->
                         <div class="footer-newsletter-title">
-                            <h3>Don't missed subscribed!</h3>
+                            <h3>{{ __("Don't missed subscribed!") }}</h3>
                         </div>
                         <!-- Footer Newsletter Title End -->
 
@@ -240,7 +259,7 @@
                             <form id="newsletterForm" action="{{ route('newsletter.subscribe') }}" method="POST">
                                 @csrf
                                 <div class="form-group">
-                                    <input type="email" name="email" class="form-control" id="mail" placeholder="Enter Your Email" required="">
+                                    <input type="email" name="email" class="form-control" id="mail" placeholder="{{ __('Enter Your Email') }}" required="">
                                     <button type="submit" class="newsletter-btn">
                                         <img src="{{ asset('images/arrow-white.svg') }}" alt="">
                                     </button>
@@ -258,13 +277,15 @@
                 <div class="col-lg-2 col-md-4 col-6">
                     <!-- Footer Links Start -->
                     <div class="footer-links">
-                        <h3>company</h3>
+                        <h3>{{ __('company') }}</h3>
                         <ul>
-                            <li><a href="{{ url('/') }}">home</a></li>
-                            <li><a href="{{ url('/about') }}">about Us</a></li>
-                            <li><a href="{{ url('/services') }}">services</a></li>
-                            <li><a href="{{ url('/team') }}">our team</a></li>
-                            <li><a href="{{ url('/blog') }}">blog</a></li>
+                            <li><a href="{{ url('/') }}">{{ __('home') }}</a></li>
+                            <li><a href="{{ url('/about') }}">{{ __('about Us') }}</a></li>
+                            <li><a href="{{ url('/services') }}">{{ __('services') }}</a></li>
+                            <li><a href="{{ url('/team') }}">{{ __('our team') }}</a></li>
+                            <li><a href="{{ url('/careers') }}">{{ __('careers') }}</a></li>
+                            <li><a href="{{ url('/news') }}">{{ __('news') }}</a></li>
+                            <li><a href="{{ url('/blog') }}">{{ __('blog') }}</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
@@ -273,12 +294,12 @@
                 <div class="col-lg-2 col-md-4 col-6">
                     <!-- Footer Links Start -->
                     <div class="footer-links">
-                        <h3>support</h3>
+                        <h3>{{ __('support') }}</h3>
                         <ul>
-                            <li><a href="#">help</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Term & Condition</a></li>
-                            <li><a href="{{ url('/contact') }}">Contact us</a></li>
+                            <li><a href="{{ url('/faq') }}">{{ __('help') }}</a></li>
+                            <li><a href="#">{{ __('Privacy Policy') }}</a></li>
+                            <li><a href="#">{{ __('Term & Condition') }}</a></li>
+                            <li><a href="{{ url('/contact') }}">{{ __('Contact us') }}</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
@@ -287,12 +308,12 @@
                 <div class="col-lg-2 col-md-4">
                     <!-- Footer Links Start -->
                     <div class="footer-links">
-                        <h3>service</h3>
+                        <h3>{{ __('service') }}</h3>
                         <ul>
-                            <li><a href="{{ url('/services') }}">Financial planning</a></li>
-                            <li><a href="{{ url('/services') }}">Investment management</a></li>
-                            <li><a href="{{ url('/services') }}">Retirement planning</a></li>
-                            <li><a href="{{ url('/services') }}">Budgeting & forecasting</a></li>
+                            <li><a href="{{ url('/services') }}">{{ __('Financial planning') }}</a></li>
+                            <li><a href="{{ url('/services') }}">{{ __('Investment management') }}</a></li>
+                            <li><a href="{{ url('/services') }}">{{ __('Retirement planning') }}</a></li>
+                            <li><a href="{{ url('/services') }}">{{ __('Budgeting & forecasting') }}</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
@@ -311,14 +332,14 @@
                         <div class="footer-contact-box">
                             <!-- Footer Contact Item Start -->
                             <div class="footer-contact-item">
-                                <p>Need support?</p>
+                                <p>{{ __('Need support?') }}</p>
                                 <h3>+255 659 998 881</h3>
                             </div>
                             <!-- Footer Contact Item End -->
 
                             <!-- Footer Contact Item Start -->
                             <div class="footer-contact-item">
-                                <p>E-mail us</p>
+                                <p>{{ __('E-mail us') }}</p>
                                 <h3>contact@instantpay.co.tz</h3>
                             </div>
                             <!-- Footer Contact Item End -->
@@ -335,7 +356,7 @@
                     <div class="col-md-5">
                         <!-- Footer Copyright Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright &copy; {{ date('Y') }} InstantPay. All Rights Reserved.</p>
+                            <p>{{ __('Copyright') }} &copy; {{ date('Y') }} InstantPay. {{ __('All Rights Reserved.') }}</p>
                         </div>
                         <!-- Footer Copyright End -->
                     </div>
@@ -391,5 +412,19 @@
     <!-- Main Custom js file -->
     <script src="{{ asset('js/function.js') }}"></script>
     @stack('scripts')
+
+    @if(config('services.chatbot.api_key'))
+    <!-- Customer Care Chatbot Widget -->
+    <script
+        src="{{ config('services.chatbot.widget_base') }}/chatbot-widget.js?v=5"
+        data-api-key="{{ config('services.chatbot.api_key') }}"
+        data-api-base="{{ config('services.chatbot.api_base') }}"
+        data-bot-name="{{ __('InstantPay Assistant') }}"
+        data-primary-color="#ea2429"
+        data-greeting="{{ __('Hi! How can we help you today?') }}"
+        data-position="right"
+        async
+    ></script>
+    @endif
 </body>
 </html>

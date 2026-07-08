@@ -1,8 +1,8 @@
 <x-guest-layout>
-    <h4 class="text-center mb-4">Confirm Password</h4>
-    
+    <h4 class="text-center mb-4">{{ __('Confirm Password') }}</h4>
+
     <div class="mb-4 text-muted small">
-        This is a secure area of the application. Please confirm your password before continuing.
+        {{ __('This is a secure area of the application. Please confirm your password before continuing.') }}
     </div>
 
     <form method="POST" action="{{ route('password.confirm') }}">
@@ -10,7 +10,7 @@
 
         <!-- Password -->
         <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
+            <label for="password" class="form-label">{{ __('Password') }}</label>
             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
             @error('password')
                 <div class="invalid-feedback">{{ $message }}</div>
@@ -19,7 +19,7 @@
 
         <div class="d-grid gap-2">
             <button type="submit" class="btn btn-primary">
-                Confirm
+                {{ __('Confirm') }}
             </button>
         </div>
     </form>

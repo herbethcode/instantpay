@@ -7,11 +7,22 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\BlogPostController;
 use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Admin\VisitorController;use App\Http\Controllers\Admin\SubscriberController;use App\Http\Controllers\Admin\CommentController;
+use App\Http\Controllers\Admin\ChatController;
+use App\Http\Controllers\Admin\CareerController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
 })->name('home');
+
+// Language switcher
+Route::get('/lang/{locale}', function (string $locale) {
+    if (in_array($locale, \App\Http\Middleware\SetLocale::SUPPORTED_LOCALES, true)) {
+        session(['locale' => $locale]);
+    }
+
+    return back();
+})->name('lang.switch');
 
 // Public Pages
 Route::get('/about', function () {
@@ -25,6 +36,19 @@ Route::get('/services', function () {
 Route::get('/team', function () {
     return view('team');
 })->name('team');
+
+Route::get('/careers', function () {
+    $jobOpenings = \App\Models\Career::active()->get();
+    return view('careers', compact('jobOpenings'));
+})->name('careers');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');
+
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -87,9 +111,16 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     Route::delete('comments/{comment}', [CommentController::class, 'destroy'])->name('comments.destroy');
     
     Route::resource('contacts', ContactController::class)->only(['index', 'show', 'destroy']);
+    Route::resource('careers', CareerController::class)->except(['show']);
     Route::get('visitors', [VisitorController::class, 'index'])->name('visitors.index');
     Route::get('subscribers', [SubscriberController::class, 'index'])->name('subscribers.index');
     Route::delete('subscribers/{subscriber}', [SubscriberController::class, 'destroy'])->name('subscribers.destroy');
+
+    Route::get('chat', [ChatController::class, 'index'])->name('chat.index');
+    Route::get('chat/{id}', [ChatController::class, 'show'])->name('chat.show');
+    Route::get('chat/{id}/messages', [ChatController::class, 'messages'])->name('chat.messages');
+    Route::post('chat/{id}/reply', [ChatController::class, 'reply'])->name('chat.reply');
+    Route::post('chat/{id}/handoff', [ChatController::class, 'handoff'])->name('chat.handoff');
 });
 
 require __DIR__.'/auth.php';

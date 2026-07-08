@@ -45,9 +45,23 @@
                 max-width: 200px;
                 height: auto;
             }
+            .lang-switcher{
+                position: absolute;
+                top: 16px;
+                right: 20px;
+                font-size: 13px;
+                font-weight: 600;
+            }
+            .lang-switcher a{ color: rgba(255,255,255,0.75); padding: 0 4px; text-decoration: none; }
+            .lang-switcher a.active{ color: #ffffff; }
         </style>
     </head>
     <body class="d-flex align-items-center">
+        <div class="lang-switcher">
+            <a href="{{ route('lang.switch', 'en') }}" class="{{ app()->getLocale() === 'en' ? 'active' : '' }}">EN</a>
+            <span>|</span>
+            <a href="{{ route('lang.switch', 'sw') }}" class="{{ app()->getLocale() === 'sw' ? 'active' : '' }}">SW</a>
+        </div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-5 col-lg-4">

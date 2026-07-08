@@ -1,6 +1,6 @@
 <x-guest-layout>
-    <h4 class="text-center mb-4">Login to InstantPay</h4>
-    
+    <h4 class="text-center mb-4">{{ __('Login to InstantPay') }}</h4>
+
     <!-- Session Status -->
     @if (session('status'))
         <div class="alert alert-success" role="alert">
@@ -13,7 +13,7 @@
 
         <!-- Email Address -->
         <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
+            <label for="email" class="form-label">{{ __('Email') }}</label>
             <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autofocus autocomplete="username">
             @error('email')
                 <div class="invalid-feedback">{{ $message }}</div>
@@ -22,7 +22,7 @@
 
         <!-- Password -->
         <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
+            <label for="password" class="form-label">{{ __('Password') }}</label>
             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
             @error('password')
                 <div class="invalid-feedback">{{ $message }}</div>
@@ -33,28 +33,28 @@
         <div class="mb-3 form-check">
             <input id="remember_me" type="checkbox" class="form-check-input" name="remember">
             <label class="form-check-label" for="remember_me">
-                Remember me
+                {{ __('Remember me') }}
             </label>
         </div>
 
         <div class="d-grid gap-2 mb-3">
             <button type="submit" class="btn btn-primary">
-                Log in
+                {{ __('Log in') }}
             </button>
         </div>
 
         <div class="text-center">
             @if (Route::has('password.request'))
                 <a class="text-decoration-none small" href="{{ route('password.request') }}">
-                    Forgot your password?
+                    {{ __('Forgot your password?') }}
                 </a>
             @endif
-            
+
             @if (Route::has('register'))
                 <div class="mt-2">
-                    <span class="small">Don't have an account?</span>
+                    <span class="small">{{ __("Don't have an account?") }}</span>
                     <a class="text-decoration-none small" href="{{ route('register') }}">
-                        Register
+                        {{ __('Register') }}
                     </a>
                 </div>
             @endif

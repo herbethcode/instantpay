@@ -9,11 +9,11 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-2 text-white" data-cursor="-opaque">Contact Us</h1>
+                    <h1 class="text-anime-style-2 text-white" data-cursor="-opaque">{{ __('Contact Us') }}</h1>
                     <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{ url('/') }}">home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">contact</li>
+                            <li class="breadcrumb-item"><a href="{{ url('/') }}">{{ __('home') }}</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{ __('contact') }}</li>
                         </ol>
                     </nav>
                 </div>
@@ -29,9 +29,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Get In Touch</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">We're Here to Help</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.2s">Have questions about our payment solutions? Our team is ready to assist you</p>
+                    <h3 class="wow fadeInUp">{{ __('Get In Touch') }}</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">{{ __("We're Here to Help") }}</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">{{ __('Have questions about our payment solutions? Our team is ready to assist you') }}</p>
                 </div>
             </div>
         </div>
@@ -44,27 +44,27 @@
                         <div class="icon-box mb-3" style="background: #ea2429; color: white; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-phone fa-2x"></i>
                         </div>
-                        <h4>Call Us</h4>
+                        <h4>{{ __('Call Us') }}</h4>
                         <p class="mb-0">+255 659 998 881</p>
-                        <small class="text-muted">Mon - Fri: 8:00 AM - 5:00 PM</small>
+                        <small class="text-muted">{{ __('Mon - Fri: 8:00 AM - 5:00 PM') }}</small>
                     </div>
 
                     <div class="contact-info-item mb-4" style="padding: 30px; background: #f8f9fa; border-radius: 10px;">
                         <div class="icon-box mb-3" style="background: #ea2429; color: white; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-envelope fa-2x"></i>
                         </div>
-                        <h4>Email Us</h4>
+                        <h4>{{ __('Email Us') }}</h4>
                         <p class="mb-0">contact@instantpay.co.tz</p>
-                        <small class="text-muted">We'll respond within 24 hours</small>
+                        <small class="text-muted">{{ __("We'll respond within 24 hours") }}</small>
                     </div>
 
                     <div class="contact-info-item" style="padding: 30px; background: #f8f9fa; border-radius: 10px;">
                         <div class="icon-box mb-3" style="background: #ea2429; color: white; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-map-marker-alt fa-2x"></i>
                         </div>
-                        <h4>Visit Us</h4>
-                        <p class="mb-0">Dar es Salaam, Tanzania</p>
-                        <small class="text-muted">By appointment only</small>
+                        <h4>{{ __('Visit Us') }}</h4>
+                        <p class="mb-0">{{ __('Dar es Salaam, Tanzania') }}</p>
+                        <small class="text-muted">{{ __('By appointment only') }}</small>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
             <!-- Contact Form -->
             <div class="col-lg-8">
                 <div class="contact-form-box wow fadeInUp" data-wow-delay="0.2s" style="background: white; padding: 40px; border-radius: 10px; box-shadow: 0 5px 30px rgba(0,0,0,0.1);">
-                    <h3 class="mb-4">Send Us a Message</h3>
+                    <h3 class="mb-4">{{ __('Send Us a Message') }}</h3>
 
                     @if(session('success'))
                     <div class="alert alert-success alert-dismissible fade show">
@@ -83,7 +83,7 @@
 
                     @if($errors->any())
                     <div class="alert alert-danger alert-dismissible fade show">
-                        <strong>Please fix the following errors:</strong>
+                        <strong>{{ __('Please fix the following errors:') }}</strong>
                         <ul class="mb-0 mt-2">
                             @foreach($errors->all() as $error)
                                 <li>{{ $error }}</li>
@@ -98,7 +98,7 @@
 
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label class="form-label">Full Name *</label>
+                                <label class="form-label">{{ __('Full Name') }} *</label>
                                 <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" required>
                                 @error('name')
                                     <div class="invalid-feedback">{{ $message }}</div>
@@ -106,7 +106,7 @@
                             </div>
 
                             <div class="col-md-6 mb-3">
-                                <label class="form-label">Email Address *</label>
+                                <label class="form-label">{{ __('Email Address') }} *</label>
                                 <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" required>
                                 @error('email')
                                     <div class="invalid-feedback">{{ $message }}</div>
@@ -116,7 +116,7 @@
 
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label class="form-label">Phone Number</label>
+                                <label class="form-label">{{ __('Phone Number') }}</label>
                                 <input type="tel" name="phone" class="form-control @error('phone') is-invalid @enderror" value="{{ old('phone') }}">
                                 @error('phone')
                                     <div class="invalid-feedback">{{ $message }}</div>
@@ -124,18 +124,18 @@
                             </div>
 
                             <div class="col-md-6 mb-3">
-                                <label class="form-label">Subject *</label>
+                                <label class="form-label">{{ __('Subject') }} *</label>
                                 <select name="subject" class="form-select @error('subject') is-invalid @enderror" required>
-                                    <option value="">Select a subject</option>
-                                    <option value="POS Solutions" {{ old('subject') == 'POS Solutions' ? 'selected' : '' }}>POS Solutions</option>
-                                    <option value="Payment APIs" {{ old('subject') == 'Payment APIs' ? 'selected' : '' }}>Payment APIs</option>
-                                    <option value="E-Commerce" {{ old('subject') == 'E-Commerce' ? 'selected' : '' }}>E-Commerce Integration</option>
-                                    <option value="GePG" {{ old('subject') == 'GePG' ? 'selected' : '' }}>GePG Solutions</option>
-                                    <option value="Cross-Border" {{ old('subject') == 'Cross-Border' ? 'selected' : '' }}>Cross-Border Payments</option>
-                                    <option value="VegaPay" {{ old('subject') == 'VegaPay' ? 'selected' : '' }}>VegaPay Wearables</option>
-                                    <option value="Partnership" {{ old('subject') == 'Partnership' ? 'selected' : '' }}>Partnership Inquiry</option>
-                                    <option value="Support" {{ old('subject') == 'Support' ? 'selected' : '' }}>Technical Support</option>
-                                    <option value="Other" {{ old('subject') == 'Other' ? 'selected' : '' }}>Other</option>
+                                    <option value="">{{ __('Select a subject') }}</option>
+                                    <option value="POS Solutions" {{ old('subject') == 'POS Solutions' ? 'selected' : '' }}>{{ __('POS Solutions') }}</option>
+                                    <option value="Payment APIs" {{ old('subject') == 'Payment APIs' ? 'selected' : '' }}>{{ __('Payment APIs') }}</option>
+                                    <option value="E-Commerce" {{ old('subject') == 'E-Commerce' ? 'selected' : '' }}>{{ __('E-Commerce Integration') }}</option>
+                                    <option value="GePG" {{ old('subject') == 'GePG' ? 'selected' : '' }}>{{ __('GePG Solutions') }}</option>
+                                    <option value="Cross-Border" {{ old('subject') == 'Cross-Border' ? 'selected' : '' }}>{{ __('Cross-Border Payments') }}</option>
+                                    <option value="VegaPay" {{ old('subject') == 'VegaPay' ? 'selected' : '' }}>{{ __('VegaPay Wearables') }}</option>
+                                    <option value="Partnership" {{ old('subject') == 'Partnership' ? 'selected' : '' }}>{{ __('Partnership Inquiry') }}</option>
+                                    <option value="Support" {{ old('subject') == 'Support' ? 'selected' : '' }}>{{ __('Technical Support') }}</option>
+                                    <option value="Other" {{ old('subject') == 'Other' ? 'selected' : '' }}>{{ __('Other') }}</option>
                                 </select>
                                 @error('subject')
                                     <div class="invalid-feedback">{{ $message }}</div>
@@ -144,7 +144,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label">Company Name</label>
+                            <label class="form-label">{{ __('Company Name') }}</label>
                             <input type="text" name="company" class="form-control @error('company') is-invalid @enderror" value="{{ old('company') }}">
                             @error('company')
                                 <div class="invalid-feedback">{{ $message }}</div>
@@ -152,7 +152,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label">Message *</label>
+                            <label class="form-label">{{ __('Message') }} *</label>
                             <textarea name="message" rows="5" class="form-control @error('message') is-invalid @enderror" required>{{ old('message') }}</textarea>
                             @error('message')
                                 <div class="invalid-feedback">{{ $message }}</div>
@@ -160,7 +160,7 @@
                         </div>
 
                         <button type="submit" class="btn-default">
-                            <i class="fas fa-paper-plane"></i> Send Message
+                            <i class="fas fa-paper-plane"></i> {{ __('Send Message') }}
                         </button>
                     </form>
                 </div>
@@ -176,8 +176,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Why Choose InstantPayment Solutions?</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Safe, Secure & Reliable</h2>
+                    <h3 class="wow fadeInUp">{{ __('Why Choose InstantPayment Solutions?') }}</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">{{ __('Safe, Secure & Reliable') }}</h2>
                 </div>
             </div>
         </div>
@@ -188,8 +188,8 @@
                     <div class="icon-box mb-3">
                         <i class="fas fa-shield-alt fa-3x" style="color: #ea2429;"></i>
                     </div>
-                    <h4>Secure</h4>
-                    <p class="mb-0">Bank-grade security for all transactions with end-to-end encryption</p>
+                    <h4>{{ __('Secure') }}</h4>
+                    <p class="mb-0">{{ __('Bank-grade security for all transactions with end-to-end encryption') }}</p>
                 </div>
             </div>
 
@@ -198,8 +198,8 @@
                     <div class="icon-box mb-3">
                         <i class="fas fa-bolt fa-3x" style="color: #ea2429;"></i>
                     </div>
-                    <h4>Instant</h4>
-                    <p class="mb-0">Real-time payment processing with instant confirmations</p>
+                    <h4>{{ __('Instant') }}</h4>
+                    <p class="mb-0">{{ __('Real-time payment processing with instant confirmations') }}</p>
                 </div>
             </div>
 
@@ -208,8 +208,8 @@
                     <div class="icon-box mb-3">
                         <i class="fas fa-headset fa-3x" style="color: #ea2429;"></i>
                     </div>
-                    <h4>24/7 Support</h4>
-                    <p class="mb-0">Round-the-clock technical support for all our clients</p>
+                    <h4>{{ __('24/7 Support') }}</h4>
+                    <p class="mb-0">{{ __('Round-the-clock technical support for all our clients') }}</p>
                 </div>
             </div>
 
@@ -218,8 +218,8 @@
                     <div class="icon-box mb-3">
                         <i class="fas fa-chart-line fa-3x" style="color: #ea2429;"></i>
                     </div>
-                    <h4>Reliable</h4>
-                    <p class="mb-0">99.9% uptime with proven track record of reliability</p>
+                    <h4>{{ __('Reliable') }}</h4>
+                    <p class="mb-0">{{ __('99.9% uptime with proven track record of reliability') }}</p>
                 </div>
             </div>
         </div>
@@ -264,11 +264,11 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
-                <h2 class="text-white mb-3">Ready to Transform Your Payment Experience?</h2>
-                <p class="text-white mb-0">Join thousands of businesses trusting InstantPayment Solutions for their payment infrastructure</p>
+                <h2 class="text-white mb-3">{{ __('Ready to Transform Your Payment Experience?') }}</h2>
+                <p class="text-white mb-0">{{ __('Join thousands of businesses trusting InstantPayment Solutions for their payment infrastructure') }}</p>
             </div>
             <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-                <a href="{{ url('/services') }}" class="btn-default" style="background: white; color: #ea2429;">Explore Our Services</a>
+                <a href="{{ url('/services') }}" class="btn-default" style="background: white; color: #ea2429;">{{ __('Explore Our Services') }}</a>
             </div>
         </div>
     </div>

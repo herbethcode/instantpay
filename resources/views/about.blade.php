@@ -9,11 +9,11 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-2 text-white" data-cursor="-opaque">About InstantPayment Solutions</h1>
+                    <h1 class="text-anime-style-2 text-white" data-cursor="-opaque">{{ __('About InstantPayment Solutions') }}</h1>
                     <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{ url('/') }}">home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">about us</li>
+                            <li class="breadcrumb-item"><a href="{{ url('/') }}">{{ __('home') }}</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{ __('about us') }}</li>
                         </ol>
                     </nav>
                 </div>
@@ -29,21 +29,21 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-image-box wow fadeInUp">
-                    <img src="{{ asset('homepage/INSP(25of113).jpg') }}" alt="InstantPayment Solutions" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/about-instantpay.svg') }}" alt="Building Tanzania's digital payment future" class="img-fluid rounded shadow-lg" style="width: 100%; max-width: 440px; height: auto; display: block; margin: 0 auto;">
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="about-content wow fadeInUp" data-wow-delay="0.2s">
                     <div class="section-title">
-                        <h3>Our Story</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Building Tanzania's Payment Future</h2>
+                        <h3>{{ __('Our Story') }}</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">{{ __("Building Tanzania's Payment Future") }}</h2>
                     </div>
 
                     <div class="about-body">
-                        <p>At InstantPayment Solutions, we were founded on the belief that Tanzania deserves an instant, reliable, and secure payment ecosystem that keeps pace with the speed of life. Our journey began <strong>3 years ago</strong> with a clear purpose: to bridge the gap in digital payments and empower businesses, individuals, and institutions to transact seamlessly anytime, anywhere.</p>
+                        <p>{!! __('At InstantPayment Solutions, we were founded on the belief that Tanzania deserves an instant, reliable, and secure payment ecosystem that keeps pace with the speed of life. Our journey began :strong with a clear purpose: to bridge the gap in digital payments and empower businesses, individuals, and institutions to transact seamlessly anytime, anywhere.', ['strong' => '<strong>' . __('3 years ago') . '</strong>']) !!}</p>
 
-                        <p>We exist to simplify financial interactions, eliminate inefficiencies, and drive the nation's transition toward a fully digitized, cashless economy. Our solutions are not just about speed, but also about <strong>trust, security, and inclusivity</strong> — ensuring that every payment tells a story of progress and opportunity.</p>
+                        <p>{!! __('We exist to simplify financial interactions, eliminate inefficiencies, and drive the nation\'s transition toward a fully digitized, cashless economy. Our solutions are not just about speed, but also about :strong — ensuring that every payment tells a story of progress and opportunity.', ['strong' => '<strong>' . __('trust, security, and inclusivity') . '</strong>']) !!}</p>
                     </div>
                 </div>
             </div>
@@ -58,9 +58,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Our Values</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Commitment to Excellence</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.2s">Our team is guided by a strong commitment to integrity, responsibility, and excellence</p>
+                    <h3 class="wow fadeInUp">{{ __('Our Values') }}</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">{{ __('Commitment to Excellence') }}</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">{{ __('Our team is guided by a strong commitment to integrity, responsibility, and excellence') }}</p>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
 
             <div class="col-lg-6">
                 <div class="values-content wow fadeInUp" data-wow-delay="0.2s">
-                    <p class="lead mb-4">Living by our Code of Good Conduct is not optional; it is the foundation of our culture and the promise we extend to our partners, regulators, and customers.</p>
+                    <p class="lead mb-4">{{ __('Living by our Code of Good Conduct is not optional; it is the foundation of our culture and the promise we extend to our partners, regulators, and customers.') }}</p>
 
                     <div class="value-item mb-4">
                         <div class="d-flex">
@@ -84,8 +84,8 @@
                                 </div>
                             </div>
                             <div class="flex-grow-1 ms-3">
-                                <h4>Integrity</h4>
-                                <p>By holding ourselves accountable, we safeguard the trust placed in us and ensure our operations are compliant, transparent, and sustainable.</p>
+                                <h4>{{ __('Integrity') }}</h4>
+                                <p>{{ __('By holding ourselves accountable, we safeguard the trust placed in us and ensure our operations are compliant, transparent, and sustainable.') }}</p>
                             </div>
                         </div>
                     </div>
@@ -98,8 +98,8 @@
                                 </div>
                             </div>
                             <div class="flex-grow-1 ms-3">
-                                <h4>Responsibility</h4>
-                                <p>We take ownership of our actions and their impact on our customers, partners, and the communities we serve.</p>
+                                <h4>{{ __('Responsibility') }}</h4>
+                                <p>{{ __('We take ownership of our actions and their impact on our customers, partners, and the communities we serve.') }}</p>
                             </div>
                         </div>
                     </div>
@@ -112,8 +112,8 @@
                                 </div>
                             </div>
                             <div class="flex-grow-1 ms-3">
-                                <h4>Excellence</h4>
-                                <p>We strive for the highest standards in everything we do, continuously improving our services and solutions.</p>
+                                <h4>{{ __('Excellence') }}</h4>
+                                <p>{{ __('We strive for the highest standards in everything we do, continuously improving our services and solutions.') }}</p>
                             </div>
                         </div>
                     </div>
@@ -130,9 +130,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Our Focus</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Three Strategic Priorities</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.2s">As we continue to grow, we remain focused on these key areas</p>
+                    <h3 class="wow fadeInUp">{{ __('Our Focus') }}</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">{{ __('Three Strategic Priorities') }}</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">{{ __('As we continue to grow, we remain focused on these key areas') }}</p>
                 </div>
             </div>
         </div>
@@ -143,8 +143,8 @@
                     <div class="icon-box mb-3">
                         <i class="fas fa-lightbulb fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3>Innovation</h3>
-                    <p>Creating solutions that respond to real-time needs and drive technological advancement in Tanzania's payment ecosystem.</p>
+                    <h3>{{ __('Innovation') }}</h3>
+                    <p>{{ __("Creating solutions that respond to real-time needs and drive technological advancement in Tanzania's payment ecosystem.") }}</p>
                 </div>
             </div>
 
@@ -153,8 +153,8 @@
                     <div class="icon-box mb-3">
                         <i class="fas fa-handshake fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3>Partnership</h3>
-                    <p>Collaborating with regulators, banks, and businesses to build a stronger, more integrated financial ecosystem for all stakeholders.</p>
+                    <h3>{{ __('Partnership') }}</h3>
+                    <p>{{ __('Collaborating with regulators, banks, and businesses to build a stronger, more integrated financial ecosystem for all stakeholders.') }}</p>
                 </div>
             </div>
 
@@ -163,8 +163,8 @@
                     <div class="icon-box mb-3">
                         <i class="fas fa-chart-line fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3>Impact</h3>
-                    <p>Driving financial inclusion and contributing to Tanzania's vision of a cashless, digital economy that benefits everyone.</p>
+                    <h3>{{ __('Impact') }}</h3>
+                    <p>{{ __("Driving financial inclusion and contributing to Tanzania's vision of a cashless, digital economy that benefits everyone.") }}</p>
                 </div>
             </div>
         </div>
@@ -177,8 +177,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="mb-4 wow fadeInUp" style="font-size: 48px; font-weight: bold; color: #ea2429;">Safe, Secure & Reliable</h2>
-                <p class="lead wow fadeInUp" data-wow-delay="0.2s" style="color: #555;">Together, with discipline and vision, we will shape the future of payments and build a company that is not only profitable but also meaningful in the lives of the people we serve.</p>
+                <h2 class="mb-4 wow fadeInUp" style="font-size: 48px; font-weight: bold; color: #ea2429;">{{ __('Safe, Secure & Reliable') }}</h2>
+                <p class="lead wow fadeInUp" data-wow-delay="0.2s" style="color: #555;">{{ __('Together, with discipline and vision, we will shape the future of payments and build a company that is not only profitable but also meaningful in the lives of the people we serve.') }}</p>
             </div>
         </div>
     </div>
@@ -228,11 +228,11 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
-                <h2 class="mb-3">Join Us in Shaping Tanzania's Payment Future</h2>
-                <p class="mb-0">Partner with InstantPayment Solutions for safe, secure, and reliable payment infrastructure</p>
+                <h2 class="mb-3">{{ __("Join Us in Shaping Tanzania's Payment Future") }}</h2>
+                <p class="mb-0">{{ __('Partner with InstantPayment Solutions for safe, secure, and reliable payment infrastructure') }}</p>
             </div>
             <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-                <a href="{{ url('/contact') }}" class="btn-default">Contact Us Today</a>
+                <a href="{{ url('/contact') }}" class="btn-default">{{ __('Contact Us Today') }}</a>
             </div>
         </div>
     </div>

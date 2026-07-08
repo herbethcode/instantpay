@@ -10,11 +10,11 @@
             <div class="col-lg-12">
                 <!-- Page Header Box Start -->
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-2" data-cursor="-opaque">Our Blog</h1>
+                    <h1 class="text-anime-style-2" data-cursor="-opaque">{{ __('Our Blog') }}</h1>
                     <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{ url('/') }}">home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">blog</li>
+                            <li class="breadcrumb-item"><a href="{{ url('/') }}">{{ __('home') }}</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{ __('blog') }}</li>
                         </ol>
                     </nav>
                 </div>
@@ -76,7 +76,7 @@
 
                         <!-- Post Item Readmore Button Start-->
                         <div class="post-item-btn">
-                            <a href="{{ route('blog.show', $post->slug) }}" class="readmore-btn">read more</a>
+                            <a href="{{ route('blog.show', $post->slug) }}" class="readmore-btn">{{ __('read more') }}</a>
                         </div>
                         <!-- Post Item Readmore Button End-->
                     </div>
@@ -87,8 +87,8 @@
             @empty
             <div class="col-12">
                 <div class="alert alert-info text-center">
-                    <h4>No blog posts available yet.</h4>
-                    <p>Please check back soon for new content!</p>
+                    <h4>{{ __('No blog posts available yet.') }}</h4>
+                    <p>{{ __('Please check back soon for new content!') }}</p>
                 </div>
             </div>
             @endforelse

@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'chatbot' => [
+        'api_key' => env('CHATBOT_API_KEY'),
+        'api_base' => env('CHATBOT_API_BASE', 'http://127.0.0.1:8010/api'),
+        'widget_base' => env('CHATBOT_WIDGET_BASE', 'http://127.0.0.1:8010/static/widget'),
+    ],
+
 ];

@@ -1,12 +1,12 @@
 <x-guest-layout>
-    <h4 class="text-center mb-4">Create Account</h4>
+    <h4 class="text-center mb-4">{{ __('Create Account') }}</h4>
 
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
         <!-- Name -->
         <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
+            <label for="name" class="form-label">{{ __('Name') }}</label>
             <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autofocus autocomplete="name">
             @error('name')
                 <div class="invalid-feedback">{{ $message }}</div>
@@ -15,7 +15,7 @@
 
         <!-- Email Address -->
         <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
+            <label for="email" class="form-label">{{ __('Email') }}</label>
             <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="username">
             @error('email')
                 <div class="invalid-feedback">{{ $message }}</div>
@@ -24,7 +24,7 @@
 
         <!-- Password -->
         <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
+            <label for="password" class="form-label">{{ __('Password') }}</label>
             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
             @error('password')
                 <div class="invalid-feedback">{{ $message }}</div>
@@ -33,7 +33,7 @@
 
         <!-- Confirm Password -->
         <div class="mb-3">
-            <label for="password_confirmation" class="form-label">Confirm Password</label>
+            <label for="password_confirmation" class="form-label">{{ __('Confirm Password') }}</label>
             <input id="password_confirmation" type="password" class="form-control @error('password_confirmation') is-invalid @enderror" name="password_confirmation" required autocomplete="new-password">
             @error('password_confirmation')
                 <div class="invalid-feedback">{{ $message }}</div>
@@ -42,17 +42,15 @@
 
         <div class="d-grid gap-2 mb-3">
             <button type="submit" class="btn btn-primary">
-                Register
+                {{ __('Register') }}
             </button>
         </div>
 
         <div class="text-center">
-            <span class="small">Already registered?</span>
+            <span class="small">{{ __('Already registered?') }}</span>
             <a class="text-decoration-none small" href="{{ route('login') }}">
-                Login here
+                {{ __('Login here') }}
             </a>
         </div>
-    </form>
-</x-guest-layout>
     </form>
 </x-guest-layout>

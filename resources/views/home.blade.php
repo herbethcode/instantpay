@@ -17,12 +17,12 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-7">
                                     <div class="hero-content">
-                                        <h3 class="text-white mb-3 wow fadeInUp">InstantPayment Solutions</h3>
-                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;"><span style="color: #ea2429;">Safe, Secure</span><br>& Reliable</h1>
-                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">Tanzania's premier digital payment solution - Instant, reliable, and secure payment ecosystem.</p>
+                                        <h3 class="text-white mb-3 wow fadeInUp">{{ __('InstantPayment Solutions') }}</h3>
+                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;"><span style="color: #ea2429;">{{ __('Safe, Secure') }}</span><br>{{ __('& Reliable') }}</h1>
+                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">{{ __("Tanzania's premier digital payment solution - Instant, reliable, and secure payment ecosystem.") }}</p>
                                         <div class="hero-buttons d-flex gap-3 flex-wrap wow fadeInUp" data-wow-delay="0.6s">
-                                            <a href="{{ url('/services') }}" class="btn-default">Explore Services</a>
-                                            <a href="{{ url('/contact') }}" class="btn-default" style="background: transparent; border: 2px solid white; color: white;">Contact Us</a>
+                                            <a href="{{ url('/services') }}" class="btn-default">{{ __('Explore Services') }}</a>
+                                            <a href="{{ url('/contact') }}" class="btn-default" style="background: transparent; border: 2px solid white; color: white;">{{ __('Contact Us') }}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -38,11 +38,11 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-7">
                                     <div class="hero-content">
-                                        <h3 class="text-white mb-3 wow fadeInUp">VegaPay Wearables</h3>
-                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;">Payment on <span style="color: #ea2429;">Your Wrist</span></h1>
-                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">Innovative wearable payment solutions with secure tokenization technology.</p>
+                                        <h3 class="text-white mb-3 wow fadeInUp">{{ __('VegaPay Wearables') }}</h3>
+                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;">{{ __('Payment on') }} <span style="color: #ea2429;">{{ __('Your Wrist') }}</span></h1>
+                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">{{ __('Innovative wearable payment solutions with secure tokenization technology.') }}</p>
                                         <div class="hero-buttons d-flex gap-3 flex-wrap wow fadeInUp" data-wow-delay="0.6s">
-                                            <a href="{{ url('/services') }}" class="btn-default">Learn More</a>
+                                            <a href="{{ url('/services') }}" class="btn-default">{{ __('Learn More') }}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -58,11 +58,11 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-7">
                                     <div class="hero-content">
-                                        <h3 class="text-white mb-3 wow fadeInUp">Card POS Solutions</h3>
-                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;">Accept Payments <span style="color: #ea2429;">Anywhere</span></h1>
-                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">Quick and secure payment terminals for businesses of all sizes.</p>
+                                        <h3 class="text-white mb-3 wow fadeInUp">{{ __('Card POS Solutions') }}</h3>
+                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;">{{ __('Accept Payments') }} <span style="color: #ea2429;">{{ __('Anywhere') }}</span></h1>
+                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">{{ __('Quick and secure payment terminals for businesses of all sizes.') }}</p>
                                         <div class="hero-buttons d-flex gap-3 flex-wrap wow fadeInUp" data-wow-delay="0.6s">
-                                            <a href="{{ url('/services#pos') }}" class="btn-default">Get Started</a>
+                                            <a href="{{ url('/services#pos') }}" class="btn-default">{{ __('Get Started') }}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -78,11 +78,11 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-7">
                                     <div class="hero-content">
-                                        <h3 class="text-white mb-3 wow fadeInUp">Cross-Border Payments</h3>
-                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;">Connect <span style="color: #ea2429;">East Africa</span></h1>
-                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">Seamless international payments supporting regional financial integration.</p>
+                                        <h3 class="text-white mb-3 wow fadeInUp">{{ __('Cross-Border Payments') }}</h3>
+                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;">{{ __('Connect') }} <span style="color: #ea2429;">{{ __('East Africa') }}</span></h1>
+                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">{{ __('Seamless international payments supporting regional financial integration.') }}</p>
                                         <div class="hero-buttons d-flex gap-3 flex-wrap wow fadeInUp" data-wow-delay="0.6s">
-                                            <a href="{{ url('/services#crossborder') }}" class="btn-default">Discover More</a>
+                                            <a href="{{ url('/services#crossborder') }}" class="btn-default">{{ __('Discover More') }}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -98,11 +98,11 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-7">
                                     <div class="hero-content">
-                                        <h3 class="text-white mb-3 wow fadeInUp">Our Team</h3>
-                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;"><span style="color: #ea2429;">Innovation</span> Driven<br>by People</h1>
-                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">3 years of excellence in digital payment solutions across Tanzania.</p>
+                                        <h3 class="text-white mb-3 wow fadeInUp">{{ __('Our Team') }}</h3>
+                                        <h1 class="text-white mb-4 wow fadeInUp" data-wow-delay="0.2s" style="font-size: 58px; line-height: 1.2; font-weight: bold;"><span style="color: #ea2429;">{{ __('Innovation') }}</span> {{ __('Driven') }}<br>{{ __('by People') }}</h1>
+                                        <p class="text-white lead mb-4 wow fadeInUp" data-wow-delay="0.4s" style="font-size: 1.2rem;">{{ __('3 years of excellence in digital payment solutions across Tanzania.') }}</p>
                                         <div class="hero-buttons d-flex gap-3 flex-wrap wow fadeInUp" data-wow-delay="0.6s">
-                                            <a href="{{ url('/about') }}" class="btn-default">About Us</a>
+                                            <a href="{{ url('/about') }}" class="btn-default">{{ __('About Us') }}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -131,25 +131,25 @@
                 <div class="col-lg-3 col-6 mb-3">
                     <div style="background: rgba(234, 36, 41, 0.9); padding: 25px 20px; border-radius: 10px; backdrop-filter: blur(10px); text-align: center;">
                         <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">3</span>+</h3>
-                        <p class="text-white mb-0">Years Experience</p>
+                        <p class="text-white mb-0">{{ __('Years Experience') }}</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 mb-3">
                     <div style="background: rgba(234, 36, 41, 0.9); padding: 25px 20px; border-radius: 10px; backdrop-filter: blur(10px); text-align: center;">
                         <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">1000</span>+</h3>
-                        <p class="text-white mb-0">Merchants</p>
+                        <p class="text-white mb-0">{{ __('Merchants') }}</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 mb-3">
                     <div style="background: rgba(234, 36, 41, 0.9); padding: 25px 20px; border-radius: 10px; backdrop-filter: blur(10px); text-align: center;">
                         <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">99.9</span>%</h3>
-                        <p class="text-white mb-0">Uptime</p>
+                        <p class="text-white mb-0">{{ __('Uptime') }}</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 mb-3">
                     <div style="background: rgba(234, 36, 41, 0.9); padding: 25px 20px; border-radius: 10px; backdrop-filter: blur(10px); text-align: center;">
                         <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">24</span>/7</h3>
-                        <p class="text-white mb-0">Support</p>
+                        <p class="text-white mb-0">{{ __('Support') }}</p>
                     </div>
                 </div>
             </div>
@@ -263,22 +263,22 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-6">
                 <div class="about-content wow fadeInUp" data-wow-delay="0.2s" style="padding-left: 30px;">
                     <div class="section-title">
-                        <h3 class="wow fadeInUp" style="color: #334155;">About Us</h3>
-                        <h2 class="text-anime-style-2 mb-4" data-cursor="-opaque">Building Tanzania's Digital Payment Future</h2>
+                        <h3 class="wow fadeInUp" style="color: #334155;">{{ __('About Us') }}</h3>
+                        <h2 class="text-anime-style-2 mb-4" data-cursor="-opaque">{{ __("Building Tanzania's Digital Payment Future") }}</h2>
                     </div>
 
                     <div class="about-body">
-                        <p style="font-size: 1.1rem; line-height: 1.8;">At InstantPayment Solutions, we were founded on the belief that Tanzania deserves an <strong>instant, reliable, and secure</strong> payment ecosystem that keeps pace with the speed of life.</p>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">{!! __('At InstantPayment Solutions, we were founded on the belief that Tanzania deserves an :strong payment ecosystem that keeps pace with the speed of life.', ['strong' => '<strong>' . __('instant, reliable, and secure') . '</strong>']) !!}</p>
 
-                        <p style="font-size: 1.1rem; line-height: 1.8;">Our journey began <strong>3 years ago</strong> with a clear purpose: to bridge the gap in digital payments and empower businesses, individuals, and institutions to transact seamlessly anytime, anywhere.</p>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">{!! __('Our journey began :strong with a clear purpose: to bridge the gap in digital payments and empower businesses, individuals, and institutions to transact seamlessly anytime, anywhere.', ['strong' => '<strong>' . __('3 years ago') . '</strong>']) !!}</p>
 
                         <div class="mission-box mt-4 p-4" style="background: #f8fafc; border-left: 4px solid #334155; border-radius: 10px;">
-                            <h5 style="color: #1e293b; margin-bottom: 15px;"><i class="fas fa-bullseye"></i> Our Mission</h5>
-                            <p class="mb-0">We exist to simplify financial interactions, eliminate inefficiencies, and drive the nation's transition toward a fully digitized, cashless economy. Our solutions are not just about speed, but also about <strong>trust, security, and inclusivity</strong> — ensuring that every payment tells a story of progress and opportunity.</p>
+                            <h5 style="color: #1e293b; margin-bottom: 15px;"><i class="fas fa-bullseye"></i> {{ __('Our Mission') }}</h5>
+                            <p class="mb-0">{!! __('We exist to simplify financial interactions, eliminate inefficiencies, and drive the nation\'s transition toward a fully digitized, cashless economy. Our solutions are not just about speed, but also about :strong — ensuring that every payment tells a story of progress and opportunity.', ['strong' => '<strong>' . __('trust, security, and inclusivity') . '</strong>']) !!}</p>
                         </div>
 
                         <div class="about-btn mt-4">
-                            <a href="{{ url('/about') }}" class="btn-default">Learn More About Us</a>
+                            <a href="{{ url('/about') }}" class="btn-default">{{ __('Learn More About Us') }}</a>
                         </div>
                     </div>
                 </div>
@@ -294,9 +294,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center">
-                    <h3 class="wow fadeInUp" style="color: #334155;">Our Foundation</h3>
-                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Built on Strong Values</h2>
-                    <p class="wow fadeInUp lead" data-wow-delay="0.2s" style="max-width: 700px; margin: 0 auto;">Our team is guided by a strong commitment to integrity, responsibility, and excellence</p>
+                    <h3 class="wow fadeInUp" style="color: #334155;">{{ __('Our Foundation') }}</h3>
+                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">{{ __('Built on Strong Values') }}</h2>
+                    <p class="wow fadeInUp lead" data-wow-delay="0.2s" style="max-width: 700px; margin: 0 auto;">{{ __('Our team is guided by a strong commitment to integrity, responsibility, and excellence') }}</p>
                 </div>
             </div>
         </div>
@@ -307,8 +307,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4" style="background: linear-gradient(135deg, #ea2429, #c41e22); color: white; width: 80px; height: 80px; border-radius: 15px; display: flex; align-items: center; justify-content: center;">
                         <i class="fas fa-shield-alt fa-3x"></i>
                     </div>
-                    <h3 style="color: #1e293b; margin-bottom: 20px;">Integrity</h3>
-                    <p style="font-size: 1rem; line-height: 1.8; color: #666;">By holding ourselves accountable, we safeguard the trust placed in us and ensure our operations are compliant, transparent, and sustainable.</p>
+                    <h3 style="color: #1e293b; margin-bottom: 20px;">{{ __('Integrity') }}</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #666;">{{ __('By holding ourselves accountable, we safeguard the trust placed in us and ensure our operations are compliant, transparent, and sustainable.') }}</p>
                 </div>
             </div>
 
@@ -317,8 +317,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4" style="background: linear-gradient(135deg, #ea2429, #c41e22); color: white; width: 80px; height: 80px; border-radius: 15px; display: flex; align-items: center; justify-content: center;">
                         <i class="fas fa-users fa-3x"></i>
                     </div>
-                    <h3 style="color: #1e293b; margin-bottom: 20px;">Responsibility</h3>
-                    <p style="font-size: 1rem; line-height: 1.8; color: #666;">We take ownership of our actions and their impact on our customers, partners, and the communities we serve across Tanzania.</p>
+                    <h3 style="color: #1e293b; margin-bottom: 20px;">{{ __('Responsibility') }}</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #666;">{{ __('We take ownership of our actions and their impact on our customers, partners, and the communities we serve across Tanzania.') }}</p>
                 </div>
             </div>
 
@@ -327,8 +327,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4" style="background: linear-gradient(135deg, #ea2429, #c41e22); color: white; width: 80px; height: 80px; border-radius: 15px; display: flex; align-items: center; justify-content: center;">
                         <i class="fas fa-star fa-3x"></i>
                     </div>
-                    <h3 style="color: #1e293b; margin-bottom: 20px;">Excellence</h3>
-                    <p style="font-size: 1rem; line-height: 1.8; color: #666;">We strive for the highest standards in everything we do, continuously improving our services and innovative solutions.</p>
+                    <h3 style="color: #1e293b; margin-bottom: 20px;">{{ __('Excellence') }}</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #666;">{{ __('We strive for the highest standards in everything we do, continuously improving our services and innovative solutions.') }}</p>
                 </div>
             </div>
         </div>
@@ -342,9 +342,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-5">
-                    <h3 class="wow fadeInUp" style="color: #334155;">Our Focus</h3>
-                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Three Strategic Priorities</h2>
-                    <p class="wow fadeInUp lead" data-wow-delay="0.2s">As we continue to grow, we remain focused on these key areas</p>
+                    <h3 class="wow fadeInUp" style="color: #334155;">{{ __('Our Focus') }}</h3>
+                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">{{ __('Three Strategic Priorities') }}</h2>
+                    <p class="wow fadeInUp lead" data-wow-delay="0.2s">{{ __('As we continue to grow, we remain focused on these key areas') }}</p>
                 </div>
             </div>
         </div>
@@ -355,8 +355,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4">
                         <i class="fas fa-lightbulb fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">Innovation</h3>
-                    <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">Creating solutions that respond to real-time needs and drive technological advancement in Tanzania's payment ecosystem.</p>
+                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">{{ __('Innovation') }}</h3>
+                    <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">{{ __("Creating solutions that respond to real-time needs and drive technological advancement in Tanzania's payment ecosystem.") }}</p>
                 </div>
             </div>
 
@@ -365,8 +365,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4">
                         <i class="fas fa-handshake fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">Partnership</h3>
-                    <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">Collaborating with regulators, banks, and businesses to build a stronger, more integrated financial ecosystem for all.</p>
+                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">{{ __('Partnership') }}</h3>
+                    <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">{{ __('Collaborating with regulators, banks, and businesses to build a stronger, more integrated financial ecosystem for all.') }}</p>
                 </div>
             </div>
 
@@ -375,8 +375,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="icon-box mb-4">
                         <i class="fas fa-chart-line fa-4x" style="color: #ea2429;"></i>
                     </div>
-                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">Impact</h3>
-                    <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">Driving financial inclusion and contributing to Tanzania's vision of a cashless, digital economy that benefits everyone.</p>
+                    <h3 style="color: #1e293b; margin-bottom: 20px; font-size: 28px;">{{ __('Impact') }}</h3>
+                    <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">{{ __("Driving financial inclusion and contributing to Tanzania's vision of a cashless, digital economy that benefits everyone.") }}</p>
                 </div>
             </div>
         </div>
@@ -390,9 +390,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-5">
-                    <h3 class="wow fadeInUp" style="color: #334155;">Our Services</h3>
-                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Comprehensive Payment Solutions</h2>
-                    <p class="wow fadeInUp lead" data-wow-delay="0.2s">From POS terminals to cross-border payments, we provide complete digital payment infrastructure</p>
+                    <h3 class="wow fadeInUp" style="color: #334155;">{{ __('Our Services') }}</h3>
+                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">{{ __('Comprehensive Payment Solutions') }}</h2>
+                    <p class="wow fadeInUp lead" data-wow-delay="0.2s">{{ __('From POS terminals to cross-border payments, we provide complete digital payment infrastructure') }}</p>
                 </div>
             </div>
         </div>
@@ -407,9 +407,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-credit-card fa-2x"></i>
                         </div>
-                        <h3 style="color: #333; margin-bottom: 15px;">Card POS Solutions</h3>
-                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">Accept payments quickly and securely with contactless, chip, and swipe transactions. Simple setup with competitive pricing.</p>
-                        <a href="{{ url('/services#pos') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 style="color: #333; margin-bottom: 15px;">{{ __('Card POS Solutions') }}</h3>
+                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">{{ __('Accept payments quickly and securely with contactless, chip, and swipe transactions. Simple setup with competitive pricing.') }}</p>
+                        <a href="{{ url('/services#pos') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">{{ __('Learn More') }} <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -423,9 +423,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-mobile-alt fa-2x"></i>
                         </div>
-                        <h3 style="color: #333; margin-bottom: 15px;">Payment APIs & Mobile Money</h3>
-                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">Seamless integration with mobile wallets, operator APIs, and digital platforms for real-time collections, payouts, and smooth operations.</p>
-                        <a href="{{ url('/services#mobile-money') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 style="color: #333; margin-bottom: 15px;">{{ __('Payment APIs & Mobile Money') }}</h3>
+                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">{{ __('Seamless integration with mobile wallets, operator APIs, and digital platforms for real-time collections, payouts, and smooth operations.') }}</p>
+                        <a href="{{ url('/services#mobile-money') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">{{ __('Learn More') }} <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -439,9 +439,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-shopping-cart fa-2x"></i>
                         </div>
-                        <h3 style="color: #333; margin-bottom: 15px;">E-Commerce Checkout</h3>
-                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">Streamline your online sales with quick integration, multiple payment options, and secure checkout processes.</p>
-                        <a href="{{ url('/services#ecommerce') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 style="color: #333; margin-bottom: 15px;">{{ __('E-Commerce Checkout') }}</h3>
+                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">{{ __('Streamline your online sales with quick integration, multiple payment options, and secure checkout processes.') }}</p>
+                        <a href="{{ url('/services#ecommerce') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">{{ __('Learn More') }} <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -455,9 +455,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-globe-africa fa-2x"></i>
                         </div>
-                        <h3 style="color: #333; margin-bottom: 15px;">Cross-Border Payments</h3>
-                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">Secure, efficient, and cost-effective cross-border payment solutions supporting regional financial integration.</p>
-                        <a href="{{ url('/services#crossborder') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 style="color: #333; margin-bottom: 15px;">{{ __('Cross-Border Payments') }}</h3>
+                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">{{ __('Secure, efficient, and cost-effective cross-border payment solutions supporting regional financial integration.') }}</p>
+                        <a href="{{ url('/services#crossborder') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">{{ __('Learn More') }} <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -471,9 +471,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-watch fa-2x"></i>
                         </div>
-                        <h3 style="color: #333; margin-bottom: 15px;">Wearable Payments</h3>
-                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">Innovative wearable payment solutions with rings, bracelets, and key fobs using secure tokenization technology.</p>
-                        <a href="{{ url('/services#wearables') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 style="color: #333; margin-bottom: 15px;">{{ __('Wearable Payments') }}</h3>
+                        <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">{{ __('Innovative wearable payment solutions with rings, bracelets, and key fobs using secure tokenization technology.') }}</p>
+                        <a href="{{ url('/services#wearables') }}" class="service-link" style="color: #ea2429; font-weight: 600; text-decoration: none;">{{ __('Learn More') }} <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -489,9 +489,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-5">
-                    <h3 class="wow fadeInUp" style="color: #334155;">Innovation in Action</h3>
-                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">Featured Solutions</h2>
-                    <p class="wow fadeInUp lead" data-wow-delay="0.2s">Transforming how Tanzania pays with cutting-edge technology</p>
+                    <h3 class="wow fadeInUp" style="color: #334155;">{{ __('Innovation in Action') }}</h3>
+                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">{{ __('Featured Solutions') }}</h2>
+                    <p class="wow fadeInUp lead" data-wow-delay="0.2s">{{ __('Transforming how Tanzania pays with cutting-edge technology') }}</p>
                 </div>
             </div>
         </div>
@@ -501,19 +501,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="solution-image wow fadeInUp" style="position: relative;">
                     <img src="{{ asset('Solutioons/platform.svg') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                     <div style="position: absolute; top: 20px; left: 20px; background: rgba(234,36,41,0.9); color: white; padding: 10px 20px; border-radius: 50px; backdrop-filter: blur(10px);">
-                        <i class="fas fa-bolt"></i> Instant Payments
+                        <i class="fas fa-bolt"></i> {{ __('Instant Payments') }}
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="solution-content wow fadeInUp" data-wow-delay="0.2s" style="padding-left: 40px;">
-                    <h3 style="color: #1e293b; font-size: 32px; margin-bottom: 20px;">InstantPay Digital Payment Platform</h3>
-                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">InstantPay is Tanzania's premier digital payment solution, connecting businesses, individuals, and institutions through secure, real-time transactions. Our comprehensive payment platform processes thousands of transactions daily with 99.9% uptime reliability.</p>
+                    <h3 style="color: #1e293b; font-size: 32px; margin-bottom: 20px;">{{ __('InstantPay Digital Payment Platform') }}</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">{{ __('InstantPay is Tanzania\'s premier digital payment solution, connecting businesses, individuals, and institutions through secure, real-time transactions. Our comprehensive payment platform processes thousands of transactions daily with 99.9% uptime reliability.') }}</p>
                     <ul class="feature-list" style="list-style: none; padding: 0;">
-                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Real-time payment processing across Tanzania</li>
-                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Multi-channel support: POS, Mobile, Web & API</li>
-                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Bank-grade security with advanced encryption</li>
-                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> 24/7 technical support and monitoring</li>
+                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('Real-time payment processing across Tanzania') }}</li>
+                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('Multi-channel support: POS, Mobile, Web & API') }}</li>
+                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('Bank-grade security with advanced encryption') }}</li>
+                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('24/7 technical support and monitoring') }}</li>
                     </ul>
                 </div>
             </div>
@@ -524,19 +524,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="solution-image wow fadeInUp" style="position: relative;">
                     <img src="{{ asset('Solutioons/merchants.svg') }}" alt="InstantPay Business Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                     <div style="position: absolute; top: 20px; right: 20px; background: rgba(234,36,41,0.9); color: white; padding: 10px 20px; border-radius: 50px; backdrop-filter: blur(10px);">
-                        <i class="fas fa-store"></i> Business Growth
+                        <i class="fas fa-store"></i> {{ __('Business Growth') }}
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="solution-content wow fadeInUp" data-wow-delay="0.2s" style="padding-right: 40px;">
-                    <h3 style="color: #1e293b; font-size: 32px; margin-bottom: 20px;">Empowering Over 1,000+ Tanzanian Merchants</h3>
-                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">From small businesses to large enterprises, we're proud to serve Tanzania's merchant community with reliable, secure, and innovative payment solutions that help them grow and thrive.</p>
+                    <h3 style="color: #1e293b; font-size: 32px; margin-bottom: 20px;">{{ __('Empowering Over 1,000+ Tanzanian Merchants') }}</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">{{ __("From small businesses to large enterprises, we're proud to serve Tanzania's merchant community with reliable, secure, and innovative payment solutions that help them grow and thrive.") }}</p>
                     <ul class="feature-list" style="list-style: none; padding: 0;">
-                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Easy integration with existing business systems</li>
-                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Detailed transaction reports and analytics</li>
-                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Fast settlement - funds within 24 hours</li>
-                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> Dedicated account managers for support</li>
+                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('Easy integration with existing business systems') }}</li>
+                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('Detailed transaction reports and analytics') }}</li>
+                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('Fast settlement - funds within 24 hours') }}</li>
+                        <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('Dedicated account managers for support') }}</li>
                     </ul>
                 </div>
             </div>
@@ -584,8 +584,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-5">
-                    <h3 class="wow fadeInUp" style="color: #334155;">Our Impact</h3>
-                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque" style="color: #1a1a1a;">Trusted by Thousands Across Tanzania</h2>
+                    <h3 class="wow fadeInUp" style="color: #334155;">{{ __('Our Impact') }}</h3>
+                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque" style="color: #1a1a1a;">{{ __('Trusted by Thousands Across Tanzania') }}</h2>
                 </div>
             </div>
         </div>
@@ -594,31 +594,93 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" style="padding: 30px;">
                     <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">3</span>+</h2>
-                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">Years of Experience</p>
+                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">{{ __('Years of Experience') }}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" data-wow-delay="0.2s" style="padding: 30px;">
                     <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">1000</span>+</h2>
-                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">Merchants Empowered</p>
+                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">{{ __('Merchants Empowered') }}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" data-wow-delay="0.4s" style="padding: 30px;">
                     <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">99.9</span>%</h2>
-                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">Uptime Guarantee</p>
+                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">{{ __('Uptime Guarantee') }}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" data-wow-delay="0.6s" style="padding: 30px;">
                     <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">24</span>/7</h2>
-                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">Customer Support</p>
+                    <p class="mb-0" style="font-size: 1.2rem; color: #666;">{{ __('Customer Support') }}</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- Testimonial/Stats Section End -->
+
+<!-- Latest News Section Start -->
+<div class="latest-news-section" style="padding: 100px 0; background: #f8f9fa;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp" style="color: #ea2429;">{{ __("What's New") }}</h3>
+                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">{{ __('Latest News & Updates') }}</h2>
+                    <p class="lead wow fadeInUp" data-wow-delay="0.2s">{{ __('Stay up to date with announcements, partnerships, and new features from InstantPayment Solutions.') }}</p>
+                </div>
+            </div>
+        </div>
+
+        @php
+            $homeNewsPreview = [
+                [
+                    'tag' => __('Partnership'),
+                    'date' => __('July 2026'),
+                    'title' => __('InstantPay Named Technical Partner for SGR Tanzania'),
+                    'icon' => 'fa-handshake',
+                ],
+                [
+                    'tag' => __('Product Update'),
+                    'date' => __('June 2026'),
+                    'title' => __('VegaPay Wearables Now Available'),
+                    'icon' => 'fa-icons',
+                ],
+                [
+                    'tag' => __('Expansion'),
+                    'date' => __('May 2026'),
+                    'title' => __('InstantPay Expanding to Zanzibar'),
+                    'icon' => 'fa-map-location-dot',
+                ],
+            ];
+        @endphp
+
+        <div class="row mt-5">
+            @foreach($homeNewsPreview as $index => $item)
+            <div class="col-lg-4 col-md-6 mb-4">
+                <a href="{{ url('/news') }}" class="text-decoration-none">
+                    <div class="news-preview-card wow fadeInUp" data-wow-delay="{{ $index * 0.1 }}s" style="background: white; border-radius: 15px; padding: 30px; height: 100%; box-shadow: 0 5px 25px rgba(0,0,0,0.06);">
+                        <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 50px; height: 50px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas {{ $item['icon'] }} fa-lg"></i>
+                        </div>
+                        <span class="badge mb-2" style="background: #fff5f5; color: #ea2429; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">{{ $item['tag'] }}</span>
+                        <div class="text-muted mb-2" style="font-size: 0.85rem;">{{ $item['date'] }}</div>
+                        <h5 class="mb-0" style="color: #1e293b;">{{ $item['title'] }}</h5>
+                    </div>
+                </a>
+            </div>
+            @endforeach
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center mt-3">
+                <a href="{{ url('/news') }}" class="btn-default">{{ __('View All News & Updates') }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Latest News Section End -->
 
 <!-- CTA Section Start -->
 <div class="cta-section" style="padding: 100px 0; background: white;">
@@ -631,8 +693,8 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="col-lg-6">
                 <div class="cta-content wow fadeInUp" data-wow-delay="0.2s" style="padding-left: 40px;">
-                    <h2 style="font-size: 42px; color: #333; margin-bottom: 20px;">Ready to Transform Your Payment Experience?</h2>
-                    <p class="lead mb-4" style="color: #666; font-size: 1.2rem;">Join thousands of businesses and individuals who trust InstantPayment Solutions for their payment infrastructure.</p>
+                    <h2 style="font-size: 42px; color: #333; margin-bottom: 20px;">{{ __('Ready to Transform Your Payment Experience?') }}</h2>
+                    <p class="lead mb-4" style="color: #666; font-size: 1.2rem;">{{ __('Join thousands of businesses and individuals who trust InstantPayment Solutions for their payment infrastructure.') }}</p>
 
                     <div class="cta-features mb-4">
                         <div class="d-flex align-items-center mb-3">
@@ -640,8 +702,8 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <i class="fas fa-bolt fa-lg"></i>
                             </div>
                             <div>
-                                <h5 class="mb-0">Instant Setup</h5>
-                                <p class="mb-0 text-muted">Get started in minutes</p>
+                                <h5 class="mb-0">{{ __('Instant Setup') }}</h5>
+                                <p class="mb-0 text-muted">{{ __('Get started in minutes') }}</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-3">
@@ -649,8 +711,8 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <i class="fas fa-headset fa-lg"></i>
                             </div>
                             <div>
-                                <h5 class="mb-0">24/7 Support</h5>
-                                <p class="mb-0 text-muted">We're always here to help</p>
+                                <h5 class="mb-0">{{ __('24/7 Support') }}</h5>
+                                <p class="mb-0 text-muted">{{ __("We're always here to help") }}</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center">
@@ -658,15 +720,15 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <i class="fas fa-shield-alt fa-lg"></i>
                             </div>
                             <div>
-                                <h5 class="mb-0">Secure & Reliable</h5>
-                                <p class="mb-0 text-muted">Bank-grade security</p>
+                                <h5 class="mb-0">{{ __('Secure & Reliable') }}</h5>
+                                <p class="mb-0 text-muted">{{ __('Bank-grade security') }}</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="cta-buttons d-flex gap-3 flex-wrap">
-                        <a href="{{ url('/contact') }}" class="btn-default" style="padding: 15px 40px; font-size: 1.1rem;">Get Started Today</a>
-                        <a href="{{ url('/services') }}" class="btn-default" style="padding: 15px 40px; font-size: 1.1rem; background: transparent; border: 2px solid #ea2429; color: #ea2429;">Explore Services</a>
+                        <a href="{{ url('/contact') }}" class="btn-default" style="padding: 15px 40px; font-size: 1.1rem;">{{ __('Get Started Today') }}</a>
+                        <a href="{{ url('/services') }}" class="btn-default" style="padding: 15px 40px; font-size: 1.1rem; background: transparent; border: 2px solid #ea2429; color: #ea2429;">{{ __('Explore Services') }}</a>
                     </div>
                 </div>
             </div>

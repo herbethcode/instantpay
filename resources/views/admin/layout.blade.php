@@ -90,8 +90,18 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('admin.careers.*') ? 'active' : '' }}" href="{{ route('admin.careers.index') }}">
+                        <i class="fas fa-briefcase me-2"></i> Careers
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link {{ request()->routeIs('admin.comments.*') ? 'active' : '' }}" href="{{ route('admin.comments.index') }}">
                         <i class="fas fa-comments me-2"></i> Comments
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('admin.chat.*') ? 'active' : '' }}" href="{{ route('admin.chat.index') }}">
+                        <i class="fas fa-headset me-2"></i> Live Chat
                     </a>
                 </li>
                 <li class="nav-item">

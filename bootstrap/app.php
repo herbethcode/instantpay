@@ -18,6 +18,7 @@ return Application::configure(basePath: dirname(__DIR__))
         // Add visitor tracking to web routes
         $middleware->web(append: [
             \App\Http\Middleware\TrackVisitor::class,
+            \App\Http\Middleware\SetLocale::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
