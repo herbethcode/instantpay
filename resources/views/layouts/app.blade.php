@@ -148,6 +148,10 @@
         .lang-switcher a{ color: #94a3b8 !important; padding: 0 4px; }
         .lang-switcher a.active{ color: #ea2429 !important; }
         .lang-switcher .sep{ color: #cbd5e1; }
+
+        /* Header actions: lang switcher + CTA, kept outside the collapsible
+           nav so they stay visible at every breakpoint (including mobile) */
+        .header-actions{ margin-left: auto; }
     </style>
 </head>
 <body>
@@ -202,6 +206,11 @@
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                    <!-- Main Menu End -->
+
+                    <!-- Header Actions Start: kept outside the collapsible nav so it stays visible on mobile -->
+                    <div class="header-actions d-flex align-items-center">
                         <!-- Language Switcher Start -->
                         <div class="lang-switcher d-inline-flex align-items-center me-3">
                             <a href="{{ route('lang.switch', 'en') }}" class="{{ app()->getLocale() === 'en' ? 'active' : '' }}">EN</a>
@@ -223,7 +232,8 @@
                         </div>
                         <!-- Header Btn End -->
                     </div>
-                    <!-- Main Menu End -->
+                    <!-- Header Actions End -->
+
                     <div class="navbar-toggle"></div>
                 </div>
             </nav>

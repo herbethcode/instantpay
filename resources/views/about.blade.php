@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- Page Header Start -->
-<div class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ asset('homepage/HGA_5249 (1).jpg') }}'); background-size: cover; background-position: center;">
+<div class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ asset('homepage/INSP(25of113).jpg') }}'); background-size: cover; background-position: center; min-height: 450px;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -29,7 +29,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-image-box wow fadeInUp">
-                    <img src="{{ asset('Solutioons/about-instantpay.svg') }}" alt="Building Tanzania's digital payment future" class="img-fluid rounded shadow-lg" style="width: 100%; max-width: 440px; height: auto; display: block; margin: 0 auto;">
+                    <img src="{{ asset('Solutioons/about-instantpay-banner.png') }}" alt="Building Tanzania's digital payment future" class="img-fluid rounded shadow-lg" style="width: 100%; max-width: 440px; height: auto; display: block; margin: 0 auto;">
                 </div>
             </div>
 

@@ -5092,8 +5092,18 @@ footer.main-footer{
         display: block;
     }
 
-	.header-btn{
-		display: none;
+	.header-actions{
+		margin-left: auto;
+		margin-right: 12px;
+	}
+
+	.header-btn .btn-default{
+		padding: 10px 40px 10px 16px;
+		font-size: 14px;
+	}
+
+	.lang-switcher{
+		margin-right: 8px !important;
 	}
 
 	.btn-default{
