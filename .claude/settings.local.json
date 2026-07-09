@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I{} sh -c 'echo \"{}: $\\(grep -ociE \"ea2429\" {}\\)\"')",
+      "Bash(grep -rhoiE \"background[^;\\\\\"]{0,60}ea2429[^;\\\\\"]{0,30}\" .)",
+      "Bash(grep -rhoiE \"background[^;\\\\\"]{0,50}ea2429[^;\\\\\"]{0,20}\" .)",
+      "Bash(env)",
+      "Bash(magick -background '#dddddd' public/Solutioons/platform.svg __TRACKED_VAR__/v_platform.png)",
+      "Bash(magick -background '#dddddd' public/Solutioons/merchants.svg __TRACKED_VAR__/v_merchants.png)"
+    ]
+  }
+}
