@@ -167,7 +167,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/card-processing-services.png') }}" alt="Card Processing" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/card-processing-visual.jpg') }}" alt="Card Processing" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
