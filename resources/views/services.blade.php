@@ -85,7 +85,7 @@
         <div class="row mt-5">
             <div class="col-lg-6 mb-4">
                 <div class="service-image-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('Solutioons/transaction-processing-platform.jpg') }}" alt="Card Processing" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover; object-position: top;">
+                    <img src="{{ asset('Solutioons/card-processing-visual.jpg') }}" alt="Card Processing" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover; object-position: top;">
                     <div class="p-4 text-center">
                         <h5 style="color: #ea2429;">{{ __('Transaction Processing Platform') }}</h5>
                         <p class="mb-0 text-muted">{{ __('Secure card payment processing infrastructure') }}</p>
@@ -167,7 +167,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/transaction-processing-platform.jpg') }}" alt="Card Processing" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/card-processing-services.png') }}" alt="Card Processing" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -324,7 +324,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/ecommerce-checkout.jpg') }}" alt="Pay-by-Link" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/pay-by-link.jpg') }}" alt="Pay-by-Link" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -456,7 +456,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/sgr_photo.svg') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/sgr-tanzania-partnership.png') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 

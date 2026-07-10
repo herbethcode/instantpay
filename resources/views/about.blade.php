@@ -4,12 +4,12 @@
 
 @section('content')
 <!-- Page Header Start -->
-<div class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ asset('homepage/INSP(25of113).jpg') }}'); background-size: cover; background-position: center; min-height: 450px;">
+<div class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ asset('homepage/about-hero.png') }}'); background-size: cover; background-position: center; min-height: 450px;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-2 text-white" data-cursor="-opaque">{{ __('About InstantPayment Solutions') }}</h1>
+                    {{-- <h1 class="text-anime-style-2 text-white" data-cursor="-opaque">{{ __('About InstantPayment Solutions') }}</h1> --}}
                     <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="{{ url('/') }}">{{ __('home') }}</a></li>
