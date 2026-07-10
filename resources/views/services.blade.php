@@ -112,7 +112,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/Card Issuance.svg') }}" alt="Card Issuance" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/card-issuance.png') }}" alt="Card Issuance" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -208,7 +208,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/card-pos-solutions.jpg') }}" alt="POS Solutions" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/mini-pos.jpg') }}" alt="POS Solutions" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 

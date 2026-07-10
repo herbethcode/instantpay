@@ -499,7 +499,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row align-items-center mb-5 pb-5">
             <div class="col-lg-6">
                 <div class="solution-image wow fadeInUp" style="position: relative;">
-                    <img src="{{ asset('Solutioons/platform.svg') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
+                    <img src="{{ asset('Solutioons/instantpay-digital-payment-platform.png') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                     <div style="position: absolute; top: 20px; left: 20px; background: rgba(234,36,41,0.9); color: white; padding: 10px 20px; border-radius: 50px; backdrop-filter: blur(10px);">
                         <i class="fas fa-bolt"></i> {{ __('Instant Payments') }}
                     </div>

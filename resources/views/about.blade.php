@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- Page Header Start -->
-<div class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ asset('homepage/about-hero.png') }}'); background-size: cover; background-position: center; min-height: 450px;">
+<div class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ asset('homepage/about-hero.jpg') }}'); background-size: cover; background-position: center; min-height: 450px;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
