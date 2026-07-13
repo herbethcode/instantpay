@@ -462,7 +462,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/sgr-tanzania-partnership.png') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/sgr-picture.png') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -715,7 +715,7 @@
         </div>
 
         <div class="row mt-5">
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-6 col-md-6 mb-4">
                 <div class="solution-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.1); height: 100%; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="solution-image" style="height: 250px; overflow: hidden;">
                         <img src="{{ asset('Solutioons/wearable-payments-2.jpeg') }}" alt="Wearables" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
@@ -727,10 +727,10 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-6 col-md-6 mb-4">
                 <div class="solution-card wow fadeInUp" data-wow-delay="0.2s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.1); height: 100%; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="solution-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('homepage/INSP(6of113).jpg') }}" alt="SGR" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('Solutioons/sgr-picture.png') }}" alt="SGR" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="solution-content p-4">
                         <h4 style="color: #ea2429;">{{ __('SGR Tanzania') }}</h4>
@@ -739,17 +739,6 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="solution-card wow fadeInUp" data-wow-delay="0.4s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.1); height: 100%; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <div class="solution-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('homepage/INSP(27of113) (1).jpg') }}" alt="Zanzibar" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <div class="solution-content p-4">
-                        <h4 style="color: #ea2429;">{{ __('Expanding to Zanzibar') }}</h4>
-                        <p>{{ __('Bringing innovative payment solutions to the Islands, connecting businesses and people.') }}</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
