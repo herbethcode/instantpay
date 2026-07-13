@@ -130,7 +130,7 @@
             <div class="row">
                 <div class="col-lg-3 col-6 mb-3">
                     <div style="background: rgba(234, 36, 41, 0.9); padding: 25px 20px; border-radius: 10px; backdrop-filter: blur(10px); text-align: center;">
-                        <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">5</span>+</h3>
+                        <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">3</span>+</h3>
                         <p class="text-white mb-0">{{ __('Years Experience') }}</p>
                     </div>
                 </div>

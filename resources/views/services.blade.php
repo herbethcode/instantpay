@@ -420,7 +420,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/wearable-payments.jpg') }}" alt="Wearable Payments" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/wearable-payments-2.jpeg') }}" alt="Wearable Payments" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -442,7 +442,7 @@
                         </ul>
                     </div>
 
-                    <p class="mt-4 mb-0"><em>{{ __('Designed for the evolving cashless economy, our technology redefines how the world transacts — VegaPay') }}</em></p>
+                    <p class="mt-4 mb-0"><em>{{ __('Designed for the evolving cashless economy, our technology redefines how the world transacts — Digiseq') }}</em></p>
                 </div>
             </div>
         </div>
@@ -712,7 +712,7 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="solution-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.1); height: 100%; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="solution-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/wearable-payments.jpg') }}" alt="Wearables" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                        <img src="{{ asset('Solutioons/wearable-payments-2.jpeg') }}" alt="Wearables" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
                     </div>
                     <div class="solution-content p-4">
                         <h4 style="color: #ea2429;">{{ __('Wearable Payments') }}</h4>
