@@ -292,7 +292,7 @@
                             <li><a href="{{ url('/') }}">{{ __('home') }}</a></li>
                             <li><a href="{{ url('/about') }}">{{ __('about Us') }}</a></li>
                             <li><a href="{{ url('/services') }}">{{ __('services') }}</a></li>
-                            <li><a href="{{ url('/team') }}">{{ __('our team') }}</a></li>
+                            {{-- <li><a href="{{ url('/team') }}">{{ __('our team') }}</a></li> --}}
                             <li><a href="{{ url('/careers') }}">{{ __('careers') }}</a></li>
                             <li><a href="{{ url('/news') }}">{{ __('news') }}</a></li>
                             <li><a href="{{ url('/blog') }}">{{ __('blog') }}</a></li>
