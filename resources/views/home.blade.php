@@ -130,13 +130,13 @@
             <div class="row">
                 <div class="col-lg-3 col-6 mb-3">
                     <div style="background: rgba(234, 36, 41, 0.9); padding: 25px 20px; border-radius: 10px; backdrop-filter: blur(10px); text-align: center;">
-                        <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">3</span>+</h3>
+                        <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">5</span>+</h3>
                         <p class="text-white mb-0">{{ __('Years Experience') }}</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 mb-3">
                     <div style="background: rgba(234, 36, 41, 0.9); padding: 25px 20px; border-radius: 10px; backdrop-filter: blur(10px); text-align: center;">
-                        <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">1000</span>+</h3>
+                        <h3 class="text-white mb-0" style="font-size: 36px; font-weight: bold;"><span class="counter">15</span>+</h3>
                         <p class="text-white mb-0">{{ __('Merchants') }}</p>
                     </div>
                 </div>
@@ -268,9 +268,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
 
                     <div class="about-body">
-                        <p style="font-size: 1.1rem; line-height: 1.8;">{!! __('At InstantPayment Solutions, we were founded on the belief that Tanzania deserves an :strong payment ecosystem that keeps pace with the speed of life.', ['strong' => '<strong>' . __('instant, reliable, and secure') . '</strong>']) !!}</p>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">{{ __('For the past 3 years, InstantPayment Solutions has been providing trusted payment infrastructure for businesses, banks, and institutions across Tanzania.') }}</p>
 
-                        <p style="font-size: 1.1rem; line-height: 1.8;">{!! __('Our journey began :strong with a clear purpose: to bridge the gap in digital payments and empower businesses, individuals, and institutions to transact seamlessly anytime, anywhere.', ['strong' => '<strong>' . __('3 years ago') . '</strong>']) !!}</p>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">{{ __('We combine innovation, security, and reliability to deliver seamless payment experiences that power growth and digital transformation.') }}</p>
 
                         <div class="mission-box mt-4 p-4" style="background: #f8fafc; border-left: 4px solid #334155; border-radius: 10px;">
                             <h5 style="color: #1e293b; margin-bottom: 15px;"><i class="fas fa-bullseye"></i> {{ __('Our Mission') }}</h5>
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 <!-- About Section End -->
 
-<!-- Our Values Section Start -->
+{{-- <!-- Our Values Section Start -->
 <div class="our-values" style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa, #ffffff);">
     <div class="container">
         <div class="row">
@@ -334,7 +334,46 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </div>
 </div>
-<!-- Our Values Section End -->
+<!-- Our Values Section End --> --}}
+
+<!-- Our Partners Section Start -->
+<div class="our-partners-home" style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa, #ffffff);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp" style="color: #334155;">{{ __('Our Partners') }}</h3>
+                    <h2 class="text-anime-style-2 mb-3" data-cursor="-opaque">{{ __('Trusted By Leading Institutions') }}</h2>
+                    <p class="wow fadeInUp lead" data-wow-delay="0.2s" style="max-width: 700px; margin: 0 auto;">{{ __('We work alongside banks, mobile money operators, and global card schemes to power payments across Tanzania') }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 align-items-center">
+            @foreach ([
+                'airtel-logo.jpeg',
+                'crdb-logo.jpeg',
+                'equity-logo.jpeg',
+                'halopesa-logo.jpeg',
+                'kcb-bank-logo.jpeg',
+                'mastercard-logo.jpeg',
+                'mixx-by-yas-logo.jpeg',
+                'mpesa-logo.jpeg',
+                'pbz-bank-logo.jpeg',
+                'tcb-bank-logo.jpeg',
+                'ttcl-tpesa-logo.jpeg',
+                'visa-logo.jpeg',
+            ] as $logo)
+                <div class="col-lg-2 col-md-3 col-4 mb-4">
+                    <div class="wow fadeInUp" style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 5px 20px rgba(0,0,0,0.06); height: 100px; display: flex; align-items: center; justify-content: center;">
+                        <img src="{{ asset('partiners/' . $logo) }}" alt="Partner logo" class="img-fluid" style="max-height: 60px; max-width: 100%; object-fit: contain;">
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</div>
+<!-- Our Partners Section End -->
 
 <!-- Our Priorities Section Start -->
 <div class="our-priorities" style="padding: 100px 0; background: white;">

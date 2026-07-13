@@ -41,7 +41,9 @@
                     </div>
 
                     <div class="about-body">
-                        <p>{!! __('At InstantPayment Solutions, we were founded on the belief that Tanzania deserves an instant, reliable, and secure payment ecosystem that keeps pace with the speed of life. Our journey began :strong with a clear purpose: to bridge the gap in digital payments and empower businesses, individuals, and institutions to transact seamlessly anytime, anywhere.', ['strong' => '<strong>' . __('3 years ago') . '</strong>']) !!}</p>
+                        <p>{{ __('For the past 3 years, InstantPayment Solutions has been providing trusted payment infrastructure for businesses, banks, and institutions across Tanzania.') }}</p>
+
+                        <p>{{ __('We combine innovation, security, and reliability to deliver seamless payment experiences that power growth and digital transformation.') }}</p>
 
                         <p>{!! __('We exist to simplify financial interactions, eliminate inefficiencies, and drive the nation\'s transition toward a fully digitized, cashless economy. Our solutions are not just about speed, but also about :strong — ensuring that every payment tells a story of progress and opportunity.', ['strong' => '<strong>' . __('trust, security, and inclusivity') . '</strong>']) !!}</p>
                     </div>
