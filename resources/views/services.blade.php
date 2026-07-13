@@ -462,7 +462,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/sgr-picture.png') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/sgr-tanzania-partnership.png') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
