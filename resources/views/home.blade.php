@@ -504,7 +504,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-card wow fadeInUp" data-wow-delay="1s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="service-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/wearable-payments.jpg') }}" alt="Wearable Payments" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                        <img src="{{ asset('Solutioons/wearable-payments-2.jpeg') }}" alt="Wearable Payments" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
                     </div>
                     <div class="service-content" style="padding: 30px;">
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
