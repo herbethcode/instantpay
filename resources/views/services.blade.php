@@ -106,7 +106,7 @@
 </div>
 <!-- Services Overview End -->
 
-<!-- Card Issuance Section Start -->
+{{-- <!-- Card Issuance Section Start -->
 <div id="card-issuance" class="service-detail" style="padding: 80px 0; background: #f8f9fa;">
     <div class="container">
         <div class="row align-items-center">
@@ -159,7 +159,7 @@
         </div>
     </div>
 </div>
-<!-- Card Issuance Section End -->
+<!-- Card Issuance Section End --> --}}
 
 <!-- Card Processing Services Section Start -->
 <div id="card-processing" class="service-detail" style="padding: 80px 0;">
@@ -208,7 +208,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/mini-pos.jpg') }}" alt="POS Solutions" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/mini-pos.jpeg') }}" alt="POS Solutions" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -369,28 +369,34 @@
                     <div class="mno-list mt-4 mb-4" style="background: white; padding: 30px; border-radius: 10px;">
                         <h5 class="mb-3" style="color: #ea2429;"><i class="fas fa-mobile-alt"></i> {{ __('Connected Mobile Network Operators:') }}</h5>
                         <div class="row">
-                            <div class="col-6 col-md-3 mb-2">
+                            <div class="col-6 col-md-3 mb-3">
                                 <div class="mno-item text-center">
-                                    <i class="fas fa-check-circle" style="color: #ea2429;"></i>
-                                    <strong>Tigo Pesa</strong>
+                                    <img src="{{ asset('partiners/mixx-by-yas-logo.jpeg') }}" alt="Mixx by Yas" class="img-fluid mb-2" style="max-height: 36px; object-fit: contain;">
+                                    <br><strong>Mixx</strong>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3 mb-2">
+                            <div class="col-6 col-md-3 mb-3">
                                 <div class="mno-item text-center">
-                                    <i class="fas fa-check-circle" style="color: #ea2429;"></i>
-                                    <strong>M-Pesa</strong>
+                                    <img src="{{ asset('partiners/mpesa-logo.jpeg') }}" alt="M-Pesa" class="img-fluid mb-2" style="max-height: 36px; object-fit: contain;">
+                                    <br><strong>M-Pesa</strong>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3 mb-2">
+                            <div class="col-6 col-md-3 mb-3">
                                 <div class="mno-item text-center">
-                                    <i class="fas fa-check-circle" style="color: #ea2429;"></i>
-                                    <strong>HaloPesa</strong>
+                                    <img src="{{ asset('partiners/halopesa-logo.jpeg') }}" alt="HaloPesa" class="img-fluid mb-2" style="max-height: 36px; object-fit: contain;">
+                                    <br><strong>HaloPesa</strong>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3 mb-2">
+                            <div class="col-6 col-md-3 mb-3">
                                 <div class="mno-item text-center">
-                                    <i class="fas fa-check-circle" style="color: #ea2429;"></i>
-                                    <strong>Airtel Money</strong>
+                                    <img src="{{ asset('partiners/airtel-logo.jpeg') }}" alt="Airtel Money" class="img-fluid mb-2" style="max-height: 36px; object-fit: contain;">
+                                    <br><strong>Airtel Money</strong>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="mno-item text-center">
+                                    <img src="{{ asset('partiners/ttcl-tpesa-logo.jpeg') }}" alt="T-Pesa" class="img-fluid mb-2" style="max-height: 36px; object-fit: contain;">
+                                    <br><strong>T-Pesa</strong>
                                 </div>
                             </div>
                         </div>
