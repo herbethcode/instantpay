@@ -255,7 +255,7 @@
                     <div class="footer-newsletter-box">
                         <!-- Footer Newsletter Title Start -->
                         <div class="footer-newsletter-title">
-                            <h3>{{ __("Don't missed subscribed!") }}</h3>
+                            <h3>{{ __("Don't miss our updates—subscribe now!") }}</h3>
                         </div>
                         <!-- Footer Newsletter Title End -->
 
@@ -322,7 +322,6 @@
                         <ul>
                             <li><a href="{{ url('/services') }}">{{ __('Financial planning') }}</a></li>
                             <li><a href="{{ url('/services') }}">{{ __('Investment management') }}</a></li>
-                            <li><a href="{{ url('/services') }}">{{ __('Retirement planning') }}</a></li>
                             <li><a href="{{ url('/services') }}">{{ __('Budgeting & forecasting') }}</a></li>
                         </ul>
                     </div>
@@ -375,9 +374,9 @@
                         <!-- Footer Menu Start -->
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="#">LinkedIn</a></li>
+                                <li><a href="https://www.linkedin.com/company/instant-payment-solutions/" target="_blank" rel="noopener">LinkedIn</a></li>
                                 <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Instagram</a></li>
+                                <li><a href="https://www.instagram.com/instantpay_solutions.tz?igsh=MWNwaGY1bjh3ODQ2bg%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram</a></li>
                                 <li><a href="#">Twitter</a></li>
                             </ul>
                         </div>

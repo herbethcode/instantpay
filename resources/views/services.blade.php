@@ -753,7 +753,7 @@
                 <p class="mb-0 lead">{{ __('Choose the payment solution that fits your business needs and start accepting payments today with safe, secure & reliable infrastructure.') }}</p>
             </div>
             <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-                <a href="{{ url('/contact') }}" class="btn-default" style="padding: 15px 40px; font-size: 1.1rem;">{{ __('Contact Our Team') }}</a>
+                <a href="{{ url('/contact') }}" class="btn-default btn-highlighted" style="padding: 15px 40px; font-size: 1.1rem;">{{ __('Contact Our Team') }}</a>
             </div>
         </div>
     </div>

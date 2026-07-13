@@ -54,7 +54,7 @@
 
         <div class="row">
             <!-- CEO -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-6 col-md-6 mb-4">
                 <div class="team-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="team-image" style="height: 350px; overflow: hidden; position: relative;">
                         <img src="{{ asset('homepage/INSP(25of113).jpg') }}" alt="CEO" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <!-- CTO -->
+            {{-- <!-- CTO -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="team-card wow fadeInUp" data-wow-delay="0.2s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="team-image" style="height: 350px; overflow: hidden; position: relative;">
@@ -93,10 +93,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <!-- CFO -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-6 col-md-6 mb-4">
                 <div class="team-card wow fadeInUp" data-wow-delay="0.4s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s; height: 100%;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="team-image" style="height: 350px; overflow: hidden; position: relative;">
                         <img src="{{ asset('homepage/INSP(6of113).jpg') }}" alt="CFO" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
@@ -377,8 +377,8 @@
                     </div>
 
                     <div class="join-buttons d-flex gap-3 flex-wrap">
-                        <a href="{{ url('/careers') }}" class="btn-default" style="padding: 15px 40px; font-size: 1.1rem;">{{ __('View Open Positions') }}</a>
-                        <a href="mailto:careers@instantpay.co.tz?subject=Speculative%20Application" class="btn-default" style="padding: 15px 40px; font-size: 1.1rem; background: transparent; border: 2px solid #ea2429; color: #ea2429;">{{ __('Send Your CV') }}</a>
+                        <a href="{{ url('/careers') }}" class="btn-default btn-highlighted" style="padding: 15px 40px; font-size: 1.1rem;">{{ __('View Open Positions') }}</a>
+                        <a href="mailto:careers@instantpay.co.tz?subject=Speculative%20Application" class="btn-default btn-highlighted" style="padding: 15px 40px; font-size: 1.1rem; background: transparent; border: 2px solid #ea2429; color: #ea2429;">{{ __('Send Your CV') }}</a>
                     </div>
                 </div>
             </div>
