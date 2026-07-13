@@ -561,7 +561,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="solution-image wow fadeInUp" style="position: relative;">
-                    <img src="{{ asset('Solutioons/merchants.svg') }}" alt="InstantPay Business Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
+                    <img src="{{ asset('Solutioons/merchants.jpeg') }}" alt="InstantPay Business Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                     <div style="position: absolute; top: 20px; right: 20px; background: rgba(234,36,41,0.9); color: white; padding: 10px 20px; border-radius: 50px; backdrop-filter: blur(10px);">
                         <i class="fas fa-store"></i> {{ __('Business Growth') }}
                     </div>
@@ -569,7 +569,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="solution-content wow fadeInUp" data-wow-delay="0.2s" style="padding-right: 40px;">
-                    <h3 style="color: #1e293b; font-size: 32px; margin-bottom: 20px;">{{ __('Empowering Over 1,000+ Tanzanian Merchants') }}</h3>
+                    <h3 style="color: #1e293b; font-size: 32px; margin-bottom: 20px;">{{ __('Empowering Over 15+ Tanzanian Merchants') }}</h3>
                     <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">{{ __("From small businesses to large enterprises, we're proud to serve Tanzania's merchant community with reliable, secure, and innovative payment solutions that help them grow and thrive.") }}</p>
                     <ul class="feature-list" style="list-style: none; padding: 0;">
                         <li class="mb-3" style="font-size: 1.05rem;"><i class="fas fa-check-circle" style="color: #ea2429; margin-right: 10px;"></i> {{ __('Easy integration with existing business systems') }}</li>
@@ -638,7 +638,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="stat-item text-center wow fadeInUp" data-wow-delay="0.2s" style="padding: 30px;">
-                    <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">1000</span>+</h2>
+                    <h2 class="mb-2" style="font-size: 48px; font-weight: bold; color: #ea2429;"><span class="counter">15</span>+</h2>
                     <p class="mb-0" style="font-size: 1.2rem; color: #666;">{{ __('Merchants Empowered') }}</p>
                 </div>
             </div>

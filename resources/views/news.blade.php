@@ -65,8 +65,8 @@
         [
             'tag' => __('Company News'),
             'date' => __('April 2026'),
-            'title' => __('Empowering Over 1,000 Tanzanian Merchants'),
-            'excerpt' => __('A milestone moment: we now serve more than 1,000 active merchants across Tanzania with reliable, secure payment infrastructure.'),
+            'title' => __('Empowering Over 15+ Tanzanian Merchants'),
+            'excerpt' => __('A milestone moment: we now serve more than 15+ active merchants across Tanzania with reliable, secure payment infrastructure.'),
             'icon' => 'fa-store',
         ],
         [

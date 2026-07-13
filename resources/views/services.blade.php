@@ -572,14 +572,14 @@
             <div class="col-lg-6">
                 <div class="section-content wow fadeInUp">
                     <h3 class="text-white mb-3">{{ __('Our Impact') }}</h3>
-                    <h2 class="text-white mb-4" style="font-size: 48px; font-weight: bold;">{{ __('Empowering Over 1,000+ Tanzanian Merchants') }}</h2>
+                    <h2 class="text-white mb-4" style="font-size: 48px; font-weight: bold;">{{ __('Empowering Over 15+ Tanzanian Merchants') }}</h2>
                     <p class="text-white lead mb-4">{{ __("From small businesses to large enterprises, we're proud to serve Tanzania's merchant community with reliable, secure, and innovative payment solutions.") }}</p>
 
                     <div class="merchant-stats mt-4">
                         <div class="row">
                             <div class="col-6 mb-3">
                                 <div class="stat-box text-center p-3" style="background: rgba(255,255,255,0.1); border-radius: 10px; backdrop-filter: blur(10px);">
-                                    <h3 class="text-white mb-0" style="font-size: 42px;"><span class="counter">1000</span>+</h3>
+                                    <h3 class="text-white mb-0" style="font-size: 42px;"><span class="counter">15</span>+</h3>
                                     <p class="text-white mb-0">{{ __('Active Merchants') }}</p>
                                 </div>
                             </div>
