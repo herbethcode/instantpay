@@ -425,7 +425,7 @@
     @if(config('services.chatbot.api_key'))
     <!-- Customer Care Chatbot Widget -->
     <script
-        src="{{ config('services.chatbot.widget_base') }}/chatbot-widget.js?v=5"
+        src="{{ config('services.chatbot.widget_base') }}/chatbot-widget.js?v=6"
         data-api-key="{{ config('services.chatbot.api_key') }}"
         data-api-base="{{ config('services.chatbot.api_base') }}"
         data-bot-name="{{ __('InstantPay Assistant') }}"

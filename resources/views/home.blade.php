@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-6">
                 <div class="about-image-box wow fadeInUp">
                     <div class="about-image" style="position: relative;">
-                        <img src="{{ asset('Solutioons/about-instantpay-banner.png') }}" alt="About InstantPayment Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
+                        <img src="{{ asset('Solutioons/building-tanzania-digital-payment-future.png') }}" alt="About InstantPayment Solutions" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                         <div style="position: absolute; bottom: -30px; right: -30px; z-index: 2;">
                             <img src="{{ asset('homepage/INSP(27of113) (1).jpg') }}" alt="Team" class="img-fluid rounded shadow-lg" style="width: 250px; height: 250px; object-fit: cover; border: 5px solid white; border-radius: 15px;">
                         </div>
@@ -440,7 +440,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="service-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/card-pos-solutions.jpg') }}" alt="POS Solutions" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                        <img src="{{ asset('Solutioons/card-pos-solution-correction.jpg') }}" alt="POS Solutions" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
                     </div>
                     <div class="service-content" style="padding: 30px;">
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
@@ -456,7 +456,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-card wow fadeInUp" data-wow-delay="0.2s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 30px rgba(0,0,0,0.08); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
                     <div class="service-image" style="height: 250px; overflow: hidden;">
-                        <img src="{{ asset('Solutioons/payment-apis-mobile-money.jpg') }}" alt="Payment APIs and Mobile Money" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                        <img src="{{ asset('Solutioons/payment-apis-mobile-money-home.png') }}" alt="Payment APIs and Mobile Money" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
                     </div>
                     <div class="service-content" style="padding: 30px;">
                         <div class="icon-box mb-3" style="background: #fff5f5; color: #ea2429; width: 60px; height: 60px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
@@ -538,7 +538,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row align-items-center mb-5 pb-5">
             <div class="col-lg-6">
                 <div class="solution-image wow fadeInUp" style="position: relative;">
-                    <img src="{{ asset('Solutioons/instantpay-digital-payment-platform.png') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
+                    <img src="{{ asset('Solutioons/digital-payment-platform-correction.png') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg" style="border-radius: 20px !important;">
                     <div style="position: absolute; top: 20px; left: 20px; background: rgba(234,36,41,0.9); color: white; padding: 10px 20px; border-radius: 50px; backdrop-filter: blur(10px);">
                         <i class="fas fa-bolt"></i> {{ __('Instant Payments') }}
                     </div>

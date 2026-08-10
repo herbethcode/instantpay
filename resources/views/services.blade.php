@@ -85,7 +85,7 @@
         <div class="row mt-5">
             <div class="col-lg-6 mb-4">
                 <div class="service-image-card wow fadeInUp" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('Solutioons/card-processing-visual.jpg') }}" alt="Card Processing" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover; object-position: top;">
+                    <img src="{{ asset('Solutioons/transaction-processing-platform-correction.png') }}" alt="Card Processing" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover; object-position: top;">
                     <div class="p-4 text-center">
                         <h5 style="color: #ea2429;">{{ __('Transaction Processing Platform') }}</h5>
                         <p class="mb-0 text-muted">{{ __('Secure card payment processing infrastructure') }}</p>
@@ -94,7 +94,7 @@
             </div>
             <div class="col-lg-6 mb-4">
                 <div class="service-image-card wow fadeInUp" data-wow-delay="0.2s" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('Solutioons/pos-hardware-range.jpg') }}" alt="POS Devices" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover; object-position: top;">
+                    <img src="{{ asset('Solutioons/pos-hardware-range-correction.png') }}" alt="POS Devices" class="img-fluid" style="width: 100%; height: 350px; object-fit: cover; object-position: top;">
                     <div class="p-4 text-center">
                         <h5 style="color: #ea2429;">{{ __('POS Hardware Range') }}</h5>
                         <p class="mb-0 text-muted">{{ __('MiniPOS and Standard terminals for every business') }}</p>
@@ -167,7 +167,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/card-processing-visual.jpg') }}" alt="Card Processing" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/card-processing-services-2.jpg') }}" alt="Card Processing" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -355,7 +355,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/payment-apis-unified-integration.jpg') }}" alt="Payment APIs and Mobile Money" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/payment-apis-mobile-money-service.png') }}" alt="Payment APIs and Mobile Money" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -462,7 +462,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/sgr-tanzania-partnership.png') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/sgr-tanzania-partnership-correction.png') }}" alt="SGR Tanzania" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
@@ -521,7 +521,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="service-image wow fadeInUp">
-                    <img src="{{ asset('Solutioons/instantpay-digital-payment-platform.png') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg">
+                    <img src="{{ asset('Solutioons/digital-payment-platform-correction.png') }}" alt="InstantPay Platform" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
 
